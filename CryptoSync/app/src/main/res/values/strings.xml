@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">CryptoSync</string>
+
+    <string name="app_name1">HelloAndroidWithLoginAndRegistration</string>
+    <string name="email_string">Email</string>
+    <string name="username_string">UserName</string>
+    <string name="password_string">Password</string>
+    <string name="enter_email_hint">Enter email</string>
+    <string name="enter_username_hint">Enter username</string>
+    <string name="enter_password_hint">Enter Password</string>
+    <string name="login_string">Login</string>
+    <string name="register_string">Register</string>
+    <string name="log_reg_string">Login/Register</string>
+
+
+    <string name="hello">Hello Android!</string>
+
+    <string name="reg_string">Registrato, if you will</string>
+
+
+</resources>
