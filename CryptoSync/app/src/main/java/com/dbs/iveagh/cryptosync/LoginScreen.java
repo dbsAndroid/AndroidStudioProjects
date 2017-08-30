@@ -82,6 +82,28 @@ public class LoginScreen extends Activity {
             }
         });
 
+        //try some mapping
+        final Button mapbtn = (Button) findViewById(R.id.mapbtn);
+        mapbtn.setOnClickListener(new OnClickListener() {
+            public void onClick(View v) {
+                Intent mapAppIntent = new Intent(LoginScreen.this, MapLocation.class);
+
+                //start Activity by using Intent
+                startActivity(mapAppIntent);
+            }
+        });
+
+        //try some mapping
+        final Button mapbtn1 = (Button) findViewById(R.id.mapbtn1);
+        mapbtn1.setOnClickListener(new OnClickListener() {
+            public void onClick(View v) {
+                Intent mapContactsAppIntent = new Intent(LoginScreen.this, MapLocationFromContacts.class);
+
+                //start Activity by using Intent
+                startActivity(mapContactsAppIntent);
+            }
+        });
+
         final EditText editText2 = (EditText) findViewById(R.id.editText2);
         final ToggleButton toggleButton = (ToggleButton) findViewById(R.id.toggleButton);
         toggleButton.setOnClickListener(new OnClickListener() {

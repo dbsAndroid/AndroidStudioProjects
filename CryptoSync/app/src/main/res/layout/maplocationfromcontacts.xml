@@ -5,12 +5,13 @@
     android:layout_height="fill_parent"
     >
 
-<TextView
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:layout_marginTop="40dp"
-    android:text="@string/reg_string"
-    android:textSize="40sp" />
+    <Button
+        android:id="@+id/mapButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="@string/find_address_string" >
+    </Button>
 
     <TextView
         android:id="@+id/username_textview"
@@ -26,5 +27,4 @@
         android:hint="@string/enter_username_hint"
         android:inputType="text">
     </EditText>
-
 </LinearLayout>
