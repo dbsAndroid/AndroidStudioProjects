@@ -1,0 +1,159 @@
+[
+    {
+        "outputFile": "/home/iveagh/Documents/DBS/09AndroidDarren2017.08.02/AndroidCodeDBS/HelloAndroidWithMenus/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 58,
+                    "endOffset": 109
+                },
+                "from": {
+                    "file": "/home/iveagh/Documents/DBS/09AndroidDarren2017.08.02/AndroidCodeDBS/HelloAndroidWithMenus/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 58,
+                        "endOffset": 110
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 114,
+                    "endColumn": 64,
+                    "endOffset": 174
+                },
+                "from": {
+                    "file": "/home/iveagh/Documents/DBS/09AndroidDarren2017.08.02/AndroidCodeDBS/HelloAndroidWithMenus/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 247,
+                        "endColumn": 64,
+                        "endOffset": 307
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 179,
+                    "endColumn": 49,
+                    "endOffset": 224
+                },
+                "from": {
+                    "file": "/home/iveagh/Documents/DBS/09AndroidDarren2017.08.02/AndroidCodeDBS/HelloAndroidWithMenus/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 197,
+                        "endColumn": 49,
+                        "endOffset": 242
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 229,
+                    "endColumn": 58,
+                    "endOffset": 283
+                },
+                "from": {
+                    "file": "/home/iveagh/Documents/DBS/09AndroidDarren2017.08.02/AndroidCodeDBS/HelloAndroidWithMenus/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 367,
+                        "endColumn": 58,
+                        "endOffset": 421
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 288,
+                    "endColumn": 54,
+                    "endOffset": 338
+                },
+                "from": {
+                    "file": "/home/iveagh/Documents/DBS/09AndroidDarren2017.08.02/AndroidCodeDBS/HelloAndroidWithMenus/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 312,
+                        "endColumn": 54,
+                        "endOffset": 362
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 343,
+                    "endColumn": 56,
+                    "endOffset": 395
+                },
+                "from": {
+                    "file": "/home/iveagh/Documents/DBS/09AndroidDarren2017.08.02/AndroidCodeDBS/HelloAndroidWithMenus/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 426,
+                        "endColumn": 56,
+                        "endOffset": 478
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 400,
+                    "endColumn": 37,
+                    "endOffset": 433
+                },
+                "from": {
+                    "file": "/home/iveagh/Documents/DBS/09AndroidDarren2017.08.02/AndroidCodeDBS/HelloAndroidWithMenus/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 115,
+                        "endColumn": 37,
+                        "endOffset": 148
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 438,
+                    "endColumn": 43,
+                    "endOffset": 477
+                },
+                "from": {
+                    "file": "/home/iveagh/Documents/DBS/09AndroidDarren2017.08.02/AndroidCodeDBS/HelloAndroidWithMenus/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 153,
+                        "endColumn": 43,
+                        "endOffset": 192
+                    }
+                }
+            }
+        ]
+    }
+]

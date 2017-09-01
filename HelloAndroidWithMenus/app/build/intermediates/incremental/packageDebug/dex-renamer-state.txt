@@ -1,0 +1,4 @@
+#Thu Aug 31 20:03:50 IST 2017
+base.0=/home/iveagh/Documents/DBS/09AndroidDarren2017.08.02/AndroidCodeDBS/HelloAndroidWithMenus/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/home/iveagh/Documents/DBS/09AndroidDarren2017.08.02/AndroidCodeDBS/HelloAndroidWithMenus/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
