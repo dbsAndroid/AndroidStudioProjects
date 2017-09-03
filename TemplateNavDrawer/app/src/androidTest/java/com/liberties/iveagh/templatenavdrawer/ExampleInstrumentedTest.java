@@ -1,4 +1,4 @@
-package com.example.ferrari7.templatenavdrawer;
+package com.liberties.iveagh.templatenavdrawer;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.ferrari7.templatenavdrawer", appContext.getPackageName());
+        assertEquals("com.liberties.iveagh.templatenavdrawer", appContext.getPackageName());
     }
 }

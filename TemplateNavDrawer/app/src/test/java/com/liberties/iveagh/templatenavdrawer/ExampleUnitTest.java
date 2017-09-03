@@ -1,4 +1,4 @@
-package com.example.ferrari7.templatenavdrawer;
+package com.liberties.iveagh.templatenavdrawer;
 
 import org.junit.Test;
 
