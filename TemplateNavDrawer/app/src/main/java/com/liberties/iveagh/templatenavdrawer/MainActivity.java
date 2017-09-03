@@ -85,12 +85,13 @@ public class MainActivity extends AppCompatActivity
             // Handle the camera action
         } else if (id == R.id.nav_gallery) {
             Intent regPageIntent = new Intent(this, HelloActivity.class);
-
             //start Activity by using Intent regRage
             startActivity(regPageIntent);
         } else if (id == R.id.nav_slideshow) {
 
         } else if (id == R.id.nav_manage) {
+
+        } else if (id == R.id.nav_manage2) {
 
         } else if (id == R.id.nav_share) {
 
