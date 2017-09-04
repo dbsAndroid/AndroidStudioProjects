@@ -12,9 +12,69 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello navDrawer place to begin!"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/etcbullet"
+        tools:layout_editor_absoluteX="-10dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="44dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/logocli"
+        tools:layout_editor_absoluteY="67dp"
+        app:layout_constraintLeft_toRightOf="@+id/imageView6"
+        android:layout_marginLeft="62dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginStart="62dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintHorizontal_bias="0.266" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:srcCompat="@mipmap/ethgreenhelp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp" />
+
+
+    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--app:layout_constraintLeft_toLeftOf="parent"-->
+    <!--app:layout_constraintRight_toRightOf="parent"-->
+    <!--app:layout_constraintTop_toTopOf="parent"-->
+    <!--app:layout_constraintHorizontal_bias="0.0"-->
+    <!--app:layout_constraintVertical_bias="0.0" />-->
+
+
+
+
 
 </android.support.constraint.ConstraintLayout>
+
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--android:layout_width="fill_parent"-->
+<!--android:layout_height="fill_parent"-->
+<!--android:orientation="vertical" >-->
+
+<!--<TextView-->
+    <!--android:id="@+id/username_textview"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="@string/username_string" >-->
+<!--</TextView>-->

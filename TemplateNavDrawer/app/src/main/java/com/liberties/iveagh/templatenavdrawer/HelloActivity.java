@@ -13,7 +13,8 @@ import android.widget.EditText;
 /**
  * Created by iveagh on 03/09/17.
  */
-
+//ImageView iv = (ImageView)findViewById(v);
+//        iv.setImageResource(R.drawable.image_name);
 
 public class HelloActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {

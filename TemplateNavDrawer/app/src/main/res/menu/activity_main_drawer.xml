@@ -23,7 +23,46 @@
             android:icon="@drawable/ic_menu_t2"
             android:title="Tools2" />
     </group>
-
+    <item android:title="Install Ethereum">
+        <menu>
+            <item
+                android:id="@+id/osLin1"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Linux" />
+            <item
+                android:id="@+id/osWin1"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Windows" />
+        </menu>
+    </item>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/osLin"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Linux O.S." />
+        <item
+            android:id="@+id/osWin"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Windows O.S." />
+        <item
+            android:id="@+id/fuzz"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/fuzz"/>
+    </group>
+    <item android:title="Themes">
+        <group android:checkableBehavior="single">
+            <menu >
+                <item
+                    android:id="@+id/theme_light"
+                    android:icon="@drawable/ic_menu_manage"
+                    android:title="Light Theme" />
+                <item
+                    android:id="@+id/theme_dark"
+                    android:icon="@drawable/ic_menu_manage"
+                    android:title="Dark Theme" />
+            </menu>
+        </group>
+    </item>
     <item android:title="Communicate">
         <menu>
             <item
