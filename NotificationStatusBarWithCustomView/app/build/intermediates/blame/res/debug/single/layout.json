@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/iveagh/AndroidStudioProjects/NotificationStatusBarWithCustomView/app/build/intermediates/res/merged/debug/layout/sub_activity.xml",
+        "source": "/home/iveagh/AndroidStudioProjects/NotificationStatusBarWithCustomView/app/src/main/res/layout/sub_activity.xml"
+    },
+    {
+        "merged": "/home/iveagh/AndroidStudioProjects/NotificationStatusBarWithCustomView/app/build/intermediates/res/merged/debug/layout/custom_notification.xml",
+        "source": "/home/iveagh/AndroidStudioProjects/NotificationStatusBarWithCustomView/app/src/main/res/layout/custom_notification.xml"
+    },
+    {
+        "merged": "/home/iveagh/AndroidStudioProjects/NotificationStatusBarWithCustomView/app/build/intermediates/res/merged/debug/layout/main.xml",
+        "source": "/home/iveagh/AndroidStudioProjects/NotificationStatusBarWithCustomView/app/src/main/res/layout/main.xml"
+    }
+]

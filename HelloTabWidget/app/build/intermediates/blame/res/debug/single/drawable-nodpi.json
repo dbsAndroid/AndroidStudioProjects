@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/home/iveagh/AndroidStudioProjects/HelloTabWidget/app/build/intermediates/res/merged/debug/drawable-nodpi/ic_tab_artists_grey.png",
+        "source": "/home/iveagh/AndroidStudioProjects/HelloTabWidget/app/src/main/res/drawable-nodpi/ic_tab_artists_grey.png"
+    },
+    {
+        "merged": "/home/iveagh/AndroidStudioProjects/HelloTabWidget/app/build/intermediates/res/merged/debug/drawable-nodpi/ic_tab_artists_white.png",
+        "source": "/home/iveagh/AndroidStudioProjects/HelloTabWidget/app/src/main/res/drawable-nodpi/ic_tab_artists_white.png"
+    },
+    {
+        "merged": "/home/iveagh/AndroidStudioProjects/HelloTabWidget/app/build/intermediates/res/merged/debug/drawable-nodpi/ic_tab_songs_grey.png",
+        "source": "/home/iveagh/AndroidStudioProjects/HelloTabWidget/app/src/main/res/drawable-nodpi/ic_tab_songs_grey.png"
+    },
+    {
+        "merged": "/home/iveagh/AndroidStudioProjects/HelloTabWidget/app/build/intermediates/res/merged/debug/drawable-nodpi/ic_tab_albums_white.png",
+        "source": "/home/iveagh/AndroidStudioProjects/HelloTabWidget/app/src/main/res/drawable-nodpi/ic_tab_albums_white.png"
+    },
+    {
+        "merged": "/home/iveagh/AndroidStudioProjects/HelloTabWidget/app/build/intermediates/res/merged/debug/drawable-nodpi/ic_tab_albums_grey.png",
+        "source": "/home/iveagh/AndroidStudioProjects/HelloTabWidget/app/src/main/res/drawable-nodpi/ic_tab_albums_grey.png"
+    },
+    {
+        "merged": "/home/iveagh/AndroidStudioProjects/HelloTabWidget/app/build/intermediates/res/merged/debug/drawable-nodpi/ic_tab_songs_white.png",
+        "source": "/home/iveagh/AndroidStudioProjects/HelloTabWidget/app/src/main/res/drawable-nodpi/ic_tab_songs_white.png"
+    }
+]

@@ -1,0 +1,2 @@
+include ':helloAndroid'
+include ':helloAndroidTest'

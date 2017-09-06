@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/iveagh/AndroidStudioProjects/HelloTabWidget/app/build/intermediates/res/merged/debug/drawable/ic_tab_songs.xml",
+        "source": "/home/iveagh/AndroidStudioProjects/HelloTabWidget/app/src/main/res/drawable/ic_tab_songs.xml"
+    },
+    {
+        "merged": "/home/iveagh/AndroidStudioProjects/HelloTabWidget/app/build/intermediates/res/merged/debug/drawable/ic_tab_artists.xml",
+        "source": "/home/iveagh/AndroidStudioProjects/HelloTabWidget/app/src/main/res/drawable/ic_tab_artists.xml"
+    },
+    {
+        "merged": "/home/iveagh/AndroidStudioProjects/HelloTabWidget/app/build/intermediates/res/merged/debug/drawable/ic_tab_albums.xml",
+        "source": "/home/iveagh/AndroidStudioProjects/HelloTabWidget/app/src/main/res/drawable/ic_tab_albums.xml"
+    }
+]
