@@ -13,6 +13,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -84,10 +85,17 @@ public class MainActivity extends AppCompatActivity
         if (id == R.id.nav_camera) {
             // Handle the camera action
         } else if (id == R.id.nav_gallery) {
-            //Intent regPageIntent = new Intent(this, HelloActivity.class);
+            Intent regPageIntent = new Intent(MainActivity.this, HelloAndroid.class);
             //start Activity by using Intent regRage
-            //startActivity(regPageIntent);
+            startActivity(regPageIntent);
         } else if (id == R.id.nav_slideshow) {
+            // Create an explicit Intent for starting the HelloAndroid
+            // Activity
+            Intent loginScreenIntent = new Intent(MainActivity.this,
+                    LoginScreen.class);
+
+            // Use the Intent to start the HelloAndroid Activity
+            startActivity(loginScreenIntent);
 
         } else if (id == R.id.nav_manage) {
 
