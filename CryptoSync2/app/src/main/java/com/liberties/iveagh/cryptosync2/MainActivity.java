@@ -42,6 +42,15 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        final Button loginButton = (Button) findViewById(R.id.log_reg_btn);
+        loginButton.setOnClickListener(new View.OnClickListener() {
+
+        public void onClick(View v) {
+            Intent loginScreenIntent = new Intent(MainActivity.this, LoginScreen.class);
+            startActivity(loginScreenIntent);
+            }
+        });
     }
 
     @Override
@@ -89,12 +98,11 @@ public class MainActivity extends AppCompatActivity
             //start Activity by using Intent regRage
             startActivity(regPageIntent);
         } else if (id == R.id.nav_slideshow) {
-            // Create an explicit Intent for starting the HelloAndroid
-            // Activity
+            // Create an explicit Intent for starting the loginScreen Activity
             Intent loginScreenIntent = new Intent(MainActivity.this,
                     LoginScreen.class);
 
-            // Use the Intent to start the HelloAndroid Activity
+            // Use the Intent to start loginScreen Activity
             startActivity(loginScreenIntent);
 
         } else if (id == R.id.nav_manage) {
