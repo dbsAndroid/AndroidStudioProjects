@@ -5,7 +5,9 @@
         <item
             android:id="@+id/nav_camera"
             android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
+            android:tint="@color/colorPrimary"
+            android:title="Import"
+            android:visible="true" />
         <item
             android:id="@+id/nav_gallery"
             android:icon="@drawable/ic_menu_gallery"
@@ -22,6 +24,10 @@
             android:id="@+id/nav_manage2"
             android:icon="@drawable/ic_menu_t2"
             android:title="Tools2" />
+        <item
+            android:id="@+id/nav_aero"
+            android:icon="@drawable/ic_airplanemode_active_black_24dp"
+            android:title="ToolsAero" />
     </group>
     <item android:title="Install Ethereum">
         <menu>
