@@ -1,9 +1,12 @@
 package com.liberties.iveagh.cryptosync2;
 
 import android.content.Intent;
+import android.content.res.Configuration;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.util.DisplayMetrics;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -14,6 +17,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
+
+import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -76,11 +81,29 @@ public class MainActivity extends AppCompatActivity
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
-
+        Locale locale = null;
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-            return true;
+            locale = new Locale("ga");
+//            Toast.makeText(this, "Íslanska", Toast.LENGTH_SHORT).show();
+            //return true;
         }
+        if (id == R.id.action_hello) {
+            //return true;
+            Intent helloIntent = new Intent(MainActivity.this, HelloAndroid.class);
+
+            //start Activity by using Intent regRage
+            startActivity(helloIntent);
+        }
+        Resources res = getResources();
+        DisplayMetrics dm = res.getDisplayMetrics();
+        Configuration conf = res.getConfiguration();
+        conf.locale = locale;
+        res.updateConfiguration(conf, dm);
+        Intent refresh = new Intent(this, MainActivity.class);
+        startActivity(refresh);
+        finish();
+//        return true;
 
         return super.onOptionsItemSelected(item);
     }
