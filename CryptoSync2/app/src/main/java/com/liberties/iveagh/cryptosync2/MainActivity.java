@@ -87,6 +87,14 @@ public class MainActivity extends AppCompatActivity
             locale = new Locale("ga");
 //            Toast.makeText(this, "Íslanska", Toast.LENGTH_SHORT).show();
             //return true;
+            Resources res = getResources();
+            DisplayMetrics dm = res.getDisplayMetrics();
+            Configuration conf = res.getConfiguration();
+            conf.locale = locale;
+            res.updateConfiguration(conf, dm);
+            Intent refresh = new Intent(this, MainActivity.class);
+            startActivity(refresh);
+            finish();
         }
         if (id == R.id.action_hello) {
             //return true;
@@ -95,14 +103,7 @@ public class MainActivity extends AppCompatActivity
             //start Activity by using Intent regRage
             startActivity(helloIntent);
         }
-        Resources res = getResources();
-        DisplayMetrics dm = res.getDisplayMetrics();
-        Configuration conf = res.getConfiguration();
-        conf.locale = locale;
-        res.updateConfiguration(conf, dm);
-        Intent refresh = new Intent(this, MainActivity.class);
-        startActivity(refresh);
-        finish();
+
 //        return true;
 
         return super.onOptionsItemSelected(item);
