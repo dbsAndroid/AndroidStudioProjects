@@ -1,6 +1,10 @@
 [
     {
+<<<<<<< HEAD
         "outputFile": "/home/ferrari7/AndroidStudioProjects/NetworkingAndroidHttpClientXML/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+=======
+        "outputFile": "/home/iveagh/AndroidStudioProjects/NetworkingAndroidHttpClientXML/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+>>>>>>> 9b3874de21ee0eda9ed163f7e0043bc17defa573
         "map": [
             {
                 "to": {
@@ -11,7 +15,11 @@
                     "endOffset": 108
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "/home/ferrari7/AndroidStudioProjects/NetworkingAndroidHttpClientXML/app/src/main/res/values/dimens.xml",
+=======
+                    "file": "/home/iveagh/AndroidStudioProjects/NetworkingAndroidHttpClientXML/app/src/main/res/values/dimens.xml",
+>>>>>>> 9b3874de21ee0eda9ed163f7e0043bc17defa573
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -30,7 +38,11 @@
                     "endOffset": 164
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "/home/ferrari7/AndroidStudioProjects/NetworkingAndroidHttpClientXML/app/src/main/res/values/dimens.xml",
+=======
+                    "file": "/home/iveagh/AndroidStudioProjects/NetworkingAndroidHttpClientXML/app/src/main/res/values/dimens.xml",
+>>>>>>> 9b3874de21ee0eda9ed163f7e0043bc17defa573
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -49,7 +61,11 @@
                     "endOffset": 232
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "/home/ferrari7/AndroidStudioProjects/NetworkingAndroidHttpClientXML/app/src/main/res/values/strings.xml",
+=======
+                    "file": "/home/iveagh/AndroidStudioProjects/NetworkingAndroidHttpClientXML/app/src/main/res/values/strings.xml",
+>>>>>>> 9b3874de21ee0eda9ed163f7e0043bc17defa573
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -68,7 +84,11 @@
                     "endOffset": 287
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "/home/ferrari7/AndroidStudioProjects/NetworkingAndroidHttpClientXML/app/src/main/res/values/strings.xml",
+=======
+                    "file": "/home/iveagh/AndroidStudioProjects/NetworkingAndroidHttpClientXML/app/src/main/res/values/strings.xml",
+>>>>>>> 9b3874de21ee0eda9ed163f7e0043bc17defa573
                     "position": {
                         "startLine": 4,
                         "startColumn": 1,

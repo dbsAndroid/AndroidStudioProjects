@@ -1,6 +1,10 @@
 [
     {
+<<<<<<< HEAD
         "outputFile": "/home/ferrari7/AndroidStudioProjects/NetworkingAndroidHttpClientXML/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw720dp-land-v13/values-sw720dp-land-v13.xml",
+=======
+        "outputFile": "/home/iveagh/AndroidStudioProjects/NetworkingAndroidHttpClientXML/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw720dp-land-v13/values-sw720dp-land-v13.xml",
+>>>>>>> 9b3874de21ee0eda9ed163f7e0043bc17defa573
         "map": [
             {
                 "to": {
@@ -11,7 +15,11 @@
                     "endOffset": 109
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "/home/ferrari7/AndroidStudioProjects/NetworkingAndroidHttpClientXML/app/src/main/res/values-sw720dp-land/dimens.xml",
+=======
+                    "file": "/home/iveagh/AndroidStudioProjects/NetworkingAndroidHttpClientXML/app/src/main/res/values-sw720dp-land/dimens.xml",
+>>>>>>> 9b3874de21ee0eda9ed163f7e0043bc17defa573
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,

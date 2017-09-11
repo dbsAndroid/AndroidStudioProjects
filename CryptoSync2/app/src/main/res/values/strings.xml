@@ -32,4 +32,10 @@
     <string name="map_app">"Map App"</string>
     
     <string name="fuzz">"--------fuzzzzz--- :-)"</string>
+
+    <!-- main content -->
+    <string name="main_intro">"Greetings to CryptoSync where we are going to learn how to synchronise with the Ethereum or Ethereum Classic Blockchain.
+        \nThe main point is that you will understand and visualise the blockchain in real-time and understand the technology behind Ethereum and Bitcoin.
+        \nTake a look at the navigation bar as it has the main links and just use the hamburger bar from the top left."
+    </string>
 </resources>
