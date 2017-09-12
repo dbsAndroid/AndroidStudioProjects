@@ -1,19 +1,10 @@
 [
     {
-<<<<<<< HEAD
-        "merged": "/home/ferrari7/AndroidStudioProjects/NetworkingAndroidHttpClientXML/app/build/intermediates/res/merged/debug/layout/list_item.xml",
-        "source": "/home/ferrari7/AndroidStudioProjects/NetworkingAndroidHttpClientXML/app/src/main/res/layout/list_item.xml"
-    },
-    {
-        "merged": "/home/ferrari7/AndroidStudioProjects/NetworkingAndroidHttpClientXML/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
-        "source": "/home/ferrari7/AndroidStudioProjects/NetworkingAndroidHttpClientXML/app/src/main/res/layout/activity_main.xml"
-=======
         "merged": "/home/iveagh/AndroidStudioProjects/NetworkingAndroidHttpClientXML/app/build/intermediates/res/merged/debug/layout/list_item.xml",
         "source": "/home/iveagh/AndroidStudioProjects/NetworkingAndroidHttpClientXML/app/src/main/res/layout/list_item.xml"
     },
     {
         "merged": "/home/iveagh/AndroidStudioProjects/NetworkingAndroidHttpClientXML/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
         "source": "/home/iveagh/AndroidStudioProjects/NetworkingAndroidHttpClientXML/app/src/main/res/layout/activity_main.xml"
->>>>>>> 9b3874de21ee0eda9ed163f7e0043bc17defa573
     }
 ]
