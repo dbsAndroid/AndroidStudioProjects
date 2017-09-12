@@ -1,0 +1,24 @@
+#Internal package file, do not edit.
+#Tue Sep 12 12:39:09 IST 2017
+2.base=/home/iveagh/AndroidStudioProjects/DataManagementSQL/app/build/intermediates/res/resources-debug.ap_
+5.file=/home/iveagh/AndroidStudioProjects/DataManagementSQL/app/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
+5.set=ANDROID_RESOURCE
+3.base=/home/iveagh/AndroidStudioProjects/DataManagementSQL/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_fb5b66b1058136f0689e530de322cf3e58464184
+6.file=/home/iveagh/AndroidStudioProjects/DataManagementSQL/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_abcaca48324e9a9dbd73faf8e1395c60e0040e13/classes.dex
+2.set=ANDROID_RESOURCE
+4.base=/home/iveagh/AndroidStudioProjects/DataManagementSQL/app/build/intermediates/res/resources-debug.ap_
+count=7
+0.file=/home/iveagh/AndroidStudioProjects/DataManagementSQL/app/build/intermediates/res/resources-debug.ap_/resources.arsc
+5.base=/home/iveagh/AndroidStudioProjects/DataManagementSQL/app/build/intermediates/res/resources-debug.ap_
+4.set=ANDROID_RESOURCE
+6.base=/home/iveagh/AndroidStudioProjects/DataManagementSQL/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_abcaca48324e9a9dbd73faf8e1395c60e0040e13
+1.file=/home/iveagh/AndroidStudioProjects/DataManagementSQL/app/build/intermediates/res/resources-debug.ap_/res/layout/list_layout.xml
+1.set=ANDROID_RESOURCE
+2.file=/home/iveagh/AndroidStudioProjects/DataManagementSQL/app/build/intermediates/res/resources-debug.ap_/res/layout/main.xml
+6.set=DEX
+0.base=/home/iveagh/AndroidStudioProjects/DataManagementSQL/app/build/intermediates/res/resources-debug.ap_
+3.file=/home/iveagh/AndroidStudioProjects/DataManagementSQL/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_fb5b66b1058136f0689e530de322cf3e58464184/classes.dex
+3.set=DEX
+1.base=/home/iveagh/AndroidStudioProjects/DataManagementSQL/app/build/intermediates/res/resources-debug.ap_
+4.file=/home/iveagh/AndroidStudioProjects/DataManagementSQL/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/ic_launcher.png
+0.set=ANDROID_RESOURCE

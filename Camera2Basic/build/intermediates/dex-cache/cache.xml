@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/iveagh/.android/build-cache/3b5f5ee607c06e026f7982d4bea6c9bb01d609e2/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="8531f2d46b35de75e6130f25830e0c2c0d6bb98c">
+        <dex dex="/home/iveagh/AndroidStudioProjects/Camera2Basic/Application/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7165679ee90b0a14f82fc43b4087c7a973d75e25/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/iveagh/.android/build-cache/542f7c13f6e5975e6472faf5cde5cdbc93e1b190/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="/home/iveagh/AndroidStudioProjects/Camera2Basic/Application/build/intermediates/transforms/dex/debug/folders/1000/10/classes_73f2f6db0ece59004542da62a3eb8ddcbe2d1283/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/iveagh/AndroidStudioProjects/Camera2Basic/Application/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="cb1941db464236418851b8c17ae6a1506d110b7b">
+        <dex dex="/home/iveagh/AndroidStudioProjects/Camera2Basic/Application/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_4f956ff5d4f47bcae549a4f52a9837229c271f7a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/iveagh/AndroidStudioProjects/Camera2Basic/Application/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/home/iveagh/AndroidStudioProjects/Camera2Basic/Application/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_e4ff68919e77598e7833bc0c5361e4ce49d7c7d6/classes.dex" />
+    </item>
+
+</items>

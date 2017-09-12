@@ -1,0 +1,4 @@
+#Tue Sep 12 12:39:08 IST 2017
+base.0=/home/iveagh/AndroidStudioProjects/DataManagementSQL/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9
+renamed.0=classes.dex
+file.0=/home/iveagh/AndroidStudioProjects/DataManagementSQL/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex
