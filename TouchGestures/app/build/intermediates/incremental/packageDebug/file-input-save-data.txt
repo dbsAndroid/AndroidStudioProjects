@@ -1,0 +1,24 @@
+#Internal package file, do not edit.
+#Thu Sep 14 12:56:46 IST 2017
+2.base=/home/iveagh/AndroidStudioProjects/TouchGestures/app/build/intermediates/res/resources-debug.ap_
+5.file=/home/iveagh/AndroidStudioProjects/TouchGestures/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_1f178716d60f3297cb25106e215bba963722660d/classes.dex
+5.set=DEX
+3.base=/home/iveagh/AndroidStudioProjects/TouchGestures/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_1be1c3bead6210c1619602e69caec0e2373121be
+6.file=/home/iveagh/AndroidStudioProjects/TouchGestures/app/build/intermediates/res/resources-debug.ap_/resources.arsc
+2.set=ANDROID_RESOURCE
+4.base=/home/iveagh/AndroidStudioProjects/TouchGestures/app/build/intermediates/res/resources-debug.ap_
+count=7
+0.file=/home/iveagh/AndroidStudioProjects/TouchGestures/app/build/intermediates/res/resources-debug.ap_/res/raw/gestures
+5.base=/home/iveagh/AndroidStudioProjects/TouchGestures/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_1f178716d60f3297cb25106e215bba963722660d
+4.set=ANDROID_RESOURCE
+6.base=/home/iveagh/AndroidStudioProjects/TouchGestures/app/build/intermediates/res/resources-debug.ap_
+1.file=/home/iveagh/AndroidStudioProjects/TouchGestures/app/build/intermediates/res/resources-debug.ap_/res/layout/main.xml
+1.set=ANDROID_RESOURCE
+2.file=/home/iveagh/AndroidStudioProjects/TouchGestures/app/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
+6.set=ANDROID_RESOURCE
+0.base=/home/iveagh/AndroidStudioProjects/TouchGestures/app/build/intermediates/res/resources-debug.ap_
+3.file=/home/iveagh/AndroidStudioProjects/TouchGestures/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_1be1c3bead6210c1619602e69caec0e2373121be/classes.dex
+3.set=DEX
+1.base=/home/iveagh/AndroidStudioProjects/TouchGestures/app/build/intermediates/res/resources-debug.ap_
+4.file=/home/iveagh/AndroidStudioProjects/TouchGestures/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/ic_launcher.png
+0.set=ANDROID_RESOURCE

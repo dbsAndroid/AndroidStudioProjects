@@ -1,0 +1,21 @@
+#Internal package file, do not edit.
+#Thu Sep 14 12:46:30 IST 2017
+2.base=/home/iveagh/AndroidStudioProjects/TouchGestureViewFlipperTest/app/build/intermediates/res/resources-debug.ap_
+5.file=/home/iveagh/AndroidStudioProjects/TouchGestureViewFlipperTest/app/build/intermediates/res/resources-debug.ap_/res/layout/second.xml
+5.set=ANDROID_RESOURCE
+3.base=/home/iveagh/AndroidStudioProjects/TouchGestureViewFlipperTest/app/build/intermediates/res/resources-debug.ap_
+2.set=ANDROID_RESOURCE
+4.base=/home/iveagh/AndroidStudioProjects/TouchGestureViewFlipperTest/app/build/intermediates/res/resources-debug.ap_
+count=6
+0.file=/home/iveagh/AndroidStudioProjects/TouchGestureViewFlipperTest/app/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
+5.base=/home/iveagh/AndroidStudioProjects/TouchGestureViewFlipperTest/app/build/intermediates/res/resources-debug.ap_
+4.set=ANDROID_RESOURCE
+1.file=/home/iveagh/AndroidStudioProjects/TouchGestureViewFlipperTest/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/ic_launcher.png
+1.set=ANDROID_RESOURCE
+2.file=/home/iveagh/AndroidStudioProjects/TouchGestureViewFlipperTest/app/build/intermediates/res/resources-debug.ap_/res/layout/main.xml
+0.base=/home/iveagh/AndroidStudioProjects/TouchGestureViewFlipperTest/app/build/intermediates/res/resources-debug.ap_
+3.file=/home/iveagh/AndroidStudioProjects/TouchGestureViewFlipperTest/app/build/intermediates/res/resources-debug.ap_/res/layout/first.xml
+3.set=ANDROID_RESOURCE
+1.base=/home/iveagh/AndroidStudioProjects/TouchGestureViewFlipperTest/app/build/intermediates/res/resources-debug.ap_
+4.file=/home/iveagh/AndroidStudioProjects/TouchGestureViewFlipperTest/app/build/intermediates/res/resources-debug.ap_/resources.arsc
+0.set=ANDROID_RESOURCE

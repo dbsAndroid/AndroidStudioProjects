@@ -1,0 +1,27 @@
+#Internal package file, do not edit.
+#Thu Sep 14 12:46:33 IST 2017
+2.base=/home/iveagh/AndroidStudioProjects/TouchGestureViewFlipperTest/app/build/intermediates/res/resources-debug.ap_
+5.file=/home/iveagh/AndroidStudioProjects/TouchGestureViewFlipperTest/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_399fe6534f6f7a323d57f91cea4c3a37883ca6c3/classes.dex
+5.set=DEX
+3.base=/home/iveagh/AndroidStudioProjects/TouchGestureViewFlipperTest/app/build/intermediates/res/resources-debug.ap_
+6.file=/home/iveagh/AndroidStudioProjects/TouchGestureViewFlipperTest/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_0e164f82bdbede785e56e60e257c699bae8a25a4/classes.dex
+2.set=ANDROID_RESOURCE
+4.base=/home/iveagh/AndroidStudioProjects/TouchGestureViewFlipperTest/app/build/intermediates/res/resources-debug.ap_
+7.file=/home/iveagh/AndroidStudioProjects/TouchGestureViewFlipperTest/app/build/intermediates/res/resources-debug.ap_/res/layout/second.xml
+7.set=ANDROID_RESOURCE
+count=8
+0.file=/home/iveagh/AndroidStudioProjects/TouchGestureViewFlipperTest/app/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
+5.base=/home/iveagh/AndroidStudioProjects/TouchGestureViewFlipperTest/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_399fe6534f6f7a323d57f91cea4c3a37883ca6c3
+4.set=ANDROID_RESOURCE
+6.base=/home/iveagh/AndroidStudioProjects/TouchGestureViewFlipperTest/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_0e164f82bdbede785e56e60e257c699bae8a25a4
+1.file=/home/iveagh/AndroidStudioProjects/TouchGestureViewFlipperTest/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/ic_launcher.png
+1.set=ANDROID_RESOURCE
+7.base=/home/iveagh/AndroidStudioProjects/TouchGestureViewFlipperTest/app/build/intermediates/res/resources-debug.ap_
+2.file=/home/iveagh/AndroidStudioProjects/TouchGestureViewFlipperTest/app/build/intermediates/res/resources-debug.ap_/res/layout/main.xml
+6.set=DEX
+0.base=/home/iveagh/AndroidStudioProjects/TouchGestureViewFlipperTest/app/build/intermediates/res/resources-debug.ap_
+3.file=/home/iveagh/AndroidStudioProjects/TouchGestureViewFlipperTest/app/build/intermediates/res/resources-debug.ap_/res/layout/first.xml
+3.set=ANDROID_RESOURCE
+1.base=/home/iveagh/AndroidStudioProjects/TouchGestureViewFlipperTest/app/build/intermediates/res/resources-debug.ap_
+4.file=/home/iveagh/AndroidStudioProjects/TouchGestureViewFlipperTest/app/build/intermediates/res/resources-debug.ap_/resources.arsc
+0.set=ANDROID_RESOURCE

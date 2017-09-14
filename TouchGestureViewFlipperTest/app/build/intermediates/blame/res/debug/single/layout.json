@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/iveagh/AndroidStudioProjects/TouchGestureViewFlipperTest/app/build/intermediates/res/merged/debug/layout/second.xml",
+        "source": "/home/iveagh/AndroidStudioProjects/TouchGestureViewFlipperTest/app/src/main/res/layout/second.xml"
+    },
+    {
+        "merged": "/home/iveagh/AndroidStudioProjects/TouchGestureViewFlipperTest/app/build/intermediates/res/merged/debug/layout/first.xml",
+        "source": "/home/iveagh/AndroidStudioProjects/TouchGestureViewFlipperTest/app/src/main/res/layout/first.xml"
+    },
+    {
+        "merged": "/home/iveagh/AndroidStudioProjects/TouchGestureViewFlipperTest/app/build/intermediates/res/merged/debug/layout/main.xml",
+        "source": "/home/iveagh/AndroidStudioProjects/TouchGestureViewFlipperTest/app/src/main/res/layout/main.xml"
+    }
+]
