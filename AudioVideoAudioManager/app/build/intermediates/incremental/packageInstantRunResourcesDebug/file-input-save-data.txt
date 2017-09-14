@@ -1,0 +1,18 @@
+#Internal package file, do not edit.
+#Thu Sep 14 13:37:00 IST 2017
+1.base=/home/iveagh/AndroidStudioProjects/AudioVideoAudioManager/app/build/intermediates/res/resources-debug.ap_
+4.file=/home/iveagh/AndroidStudioProjects/AudioVideoAudioManager/app/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
+1.file=/home/iveagh/AndroidStudioProjects/AudioVideoAudioManager/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/ic_launcher.png
+4.set=ANDROID_RESOURCE
+2.base=/home/iveagh/AndroidStudioProjects/AudioVideoAudioManager/app/build/intermediates/res/resources-debug.ap_
+3.set=ANDROID_RESOURCE
+2.set=ANDROID_RESOURCE
+2.file=/home/iveagh/AndroidStudioProjects/AudioVideoAudioManager/app/build/intermediates/res/resources-debug.ap_/res/layout/main.xml
+count=5
+1.set=ANDROID_RESOURCE
+3.base=/home/iveagh/AndroidStudioProjects/AudioVideoAudioManager/app/build/intermediates/res/resources-debug.ap_
+0.set=ANDROID_RESOURCE
+0.base=/home/iveagh/AndroidStudioProjects/AudioVideoAudioManager/app/build/intermediates/res/resources-debug.ap_
+3.file=/home/iveagh/AndroidStudioProjects/AudioVideoAudioManager/app/build/intermediates/res/resources-debug.ap_/resources.arsc
+0.file=/home/iveagh/AndroidStudioProjects/AudioVideoAudioManager/app/build/intermediates/res/resources-debug.ap_/res/raw/slow_whoop_bubble_pop.mp3
+4.base=/home/iveagh/AndroidStudioProjects/AudioVideoAudioManager/app/build/intermediates/res/resources-debug.ap_
