@@ -1,0 +1,21 @@
+#Internal package file, do not edit.
+#Thu Sep 14 12:39:08 IST 2017
+2.base=/home/iveagh/AndroidStudioProjects/TouchIndicateTouchLocation/app/build/intermediates/res/resources-debug.ap_
+5.file=/home/iveagh/AndroidStudioProjects/TouchIndicateTouchLocation/app/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
+5.set=ANDROID_RESOURCE
+3.base=/home/iveagh/AndroidStudioProjects/TouchIndicateTouchLocation/app/build/intermediates/res/resources-debug.ap_
+2.set=ANDROID_RESOURCE
+4.base=/home/iveagh/AndroidStudioProjects/TouchIndicateTouchLocation/app/build/intermediates/res/resources-debug.ap_
+count=6
+0.file=/home/iveagh/AndroidStudioProjects/TouchIndicateTouchLocation/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_b9d94d4f32619a1deaf728578c2d9d3a7ca94d1b/classes.dex
+5.base=/home/iveagh/AndroidStudioProjects/TouchIndicateTouchLocation/app/build/intermediates/res/resources-debug.ap_
+4.set=ANDROID_RESOURCE
+1.file=/home/iveagh/AndroidStudioProjects/TouchIndicateTouchLocation/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_f1cbb6929beac2225426630235cfe588016e432a/classes.dex
+1.set=DEX
+2.file=/home/iveagh/AndroidStudioProjects/TouchIndicateTouchLocation/app/build/intermediates/res/resources-debug.ap_/resources.arsc
+0.base=/home/iveagh/AndroidStudioProjects/TouchIndicateTouchLocation/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_b9d94d4f32619a1deaf728578c2d9d3a7ca94d1b
+3.file=/home/iveagh/AndroidStudioProjects/TouchIndicateTouchLocation/app/build/intermediates/res/resources-debug.ap_/res/layout/main.xml
+3.set=ANDROID_RESOURCE
+1.base=/home/iveagh/AndroidStudioProjects/TouchIndicateTouchLocation/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_f1cbb6929beac2225426630235cfe588016e432a
+4.file=/home/iveagh/AndroidStudioProjects/TouchIndicateTouchLocation/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/ic_launcher.png
+0.set=DEX

@@ -99,8 +99,6 @@ public class EthereumActivity extends ListActivity {
 					resultout.add(ACCOUNT_TAG + ":\n"
 							+ ether.get(ACCOUNT_TAG) + "\n"
 							+ BALANCE_TAG + ":\n"
-							+ ether.get(BALANCE_TAG) + "\n"
-							+ BALANCE_TAG + ":\n"
 							+ ether.get(BALANCE_TAG));
 				}
 			} catch (JSONException e) {

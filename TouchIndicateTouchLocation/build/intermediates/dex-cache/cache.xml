@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/iveagh/AndroidStudioProjects/TouchIndicateTouchLocation/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/home/iveagh/AndroidStudioProjects/TouchIndicateTouchLocation/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_f1cbb6929beac2225426630235cfe588016e432a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/iveagh/AndroidStudioProjects/TouchIndicateTouchLocation/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="803db9088f15c76f5170c6929b41d2d6028268ce">
+        <dex dex="/home/iveagh/AndroidStudioProjects/TouchIndicateTouchLocation/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_b9d94d4f32619a1deaf728578c2d9d3a7ca94d1b/classes.dex" />
+    </item>
+
+</items>

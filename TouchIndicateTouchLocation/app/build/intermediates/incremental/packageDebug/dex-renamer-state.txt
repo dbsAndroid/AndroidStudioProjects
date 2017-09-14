@@ -1,0 +1,7 @@
+#Thu Sep 14 12:39:08 IST 2017
+base.0=/home/iveagh/AndroidStudioProjects/TouchIndicateTouchLocation/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_b9d94d4f32619a1deaf728578c2d9d3a7ca94d1b
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/home/iveagh/AndroidStudioProjects/TouchIndicateTouchLocation/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_f1cbb6929beac2225426630235cfe588016e432a/classes.dex
+base.1=/home/iveagh/AndroidStudioProjects/TouchIndicateTouchLocation/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_f1cbb6929beac2225426630235cfe588016e432a
+file.0=/home/iveagh/AndroidStudioProjects/TouchIndicateTouchLocation/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_b9d94d4f32619a1deaf728578c2d9d3a7ca94d1b/classes.dex
