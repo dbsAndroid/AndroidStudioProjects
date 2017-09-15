@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/iveagh/AndroidStudioProjects/FragmentStaticConfigLayout/app/build/intermediates/res/merged/debug/layout/list_item.xml",
+        "source": "/home/iveagh/AndroidStudioProjects/FragmentStaticConfigLayout/app/src/main/res/layout/list_item.xml"
+    },
+    {
+        "merged": "/home/iveagh/AndroidStudioProjects/FragmentStaticConfigLayout/app/build/intermediates/res/merged/debug/layout/quote_fragment.xml",
+        "source": "/home/iveagh/AndroidStudioProjects/FragmentStaticConfigLayout/app/src/main/res/layout/quote_fragment.xml"
+    },
+    {
+        "merged": "/home/iveagh/AndroidStudioProjects/FragmentStaticConfigLayout/app/build/intermediates/res/merged/debug/layout/main.xml",
+        "source": "/home/iveagh/AndroidStudioProjects/FragmentStaticConfigLayout/app/src/main/res/layout/main.xml"
+    }
+]

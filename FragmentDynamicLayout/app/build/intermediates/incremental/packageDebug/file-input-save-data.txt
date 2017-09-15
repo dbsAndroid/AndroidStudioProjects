@@ -1,0 +1,27 @@
+#Internal package file, do not edit.
+#Fri Sep 15 21:11:57 IST 2017
+2.base=/home/iveagh/AndroidStudioProjects/FragmentDynamicLayout/app/build/intermediates/res/resources-debug.ap_
+5.file=/home/iveagh/AndroidStudioProjects/FragmentDynamicLayout/app/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
+5.set=ANDROID_RESOURCE
+3.base=/home/iveagh/AndroidStudioProjects/FragmentDynamicLayout/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_3f0d6ea8bdc954a6b6f13015e0967951ef1839d7
+6.file=/home/iveagh/AndroidStudioProjects/FragmentDynamicLayout/app/build/intermediates/res/resources-debug.ap_/res/layout/quote_fragment.xml
+2.set=ANDROID_RESOURCE
+4.base=/home/iveagh/AndroidStudioProjects/FragmentDynamicLayout/app/build/intermediates/res/resources-debug.ap_
+7.file=/home/iveagh/AndroidStudioProjects/FragmentDynamicLayout/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_8e695b7b836eab0004d07ac61ead851d866efaab/classes.dex
+7.set=DEX
+count=8
+0.file=/home/iveagh/AndroidStudioProjects/FragmentDynamicLayout/app/build/intermediates/res/resources-debug.ap_/res/layout/main.xml
+5.base=/home/iveagh/AndroidStudioProjects/FragmentDynamicLayout/app/build/intermediates/res/resources-debug.ap_
+4.set=ANDROID_RESOURCE
+6.base=/home/iveagh/AndroidStudioProjects/FragmentDynamicLayout/app/build/intermediates/res/resources-debug.ap_
+1.file=/home/iveagh/AndroidStudioProjects/FragmentDynamicLayout/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/ic_launcher.png
+1.set=ANDROID_RESOURCE
+7.base=/home/iveagh/AndroidStudioProjects/FragmentDynamicLayout/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_8e695b7b836eab0004d07ac61ead851d866efaab
+2.file=/home/iveagh/AndroidStudioProjects/FragmentDynamicLayout/app/build/intermediates/res/resources-debug.ap_/res/layout/title_item.xml
+6.set=ANDROID_RESOURCE
+0.base=/home/iveagh/AndroidStudioProjects/FragmentDynamicLayout/app/build/intermediates/res/resources-debug.ap_
+3.file=/home/iveagh/AndroidStudioProjects/FragmentDynamicLayout/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_3f0d6ea8bdc954a6b6f13015e0967951ef1839d7/classes.dex
+3.set=DEX
+1.base=/home/iveagh/AndroidStudioProjects/FragmentDynamicLayout/app/build/intermediates/res/resources-debug.ap_
+4.file=/home/iveagh/AndroidStudioProjects/FragmentDynamicLayout/app/build/intermediates/res/resources-debug.ap_/resources.arsc
+0.set=ANDROID_RESOURCE

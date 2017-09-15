@@ -1,0 +1,7 @@
+#Fri Sep 15 20:59:15 IST 2017
+base.0=/home/iveagh/AndroidStudioProjects/FragmentStaticLayout/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_2cb73120163e806435733d613616b62b10f67887
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/home/iveagh/AndroidStudioProjects/FragmentStaticLayout/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_a47fb06057b8bff38c8c8d10bf80c09dae1c3466/classes.dex
+base.1=/home/iveagh/AndroidStudioProjects/FragmentStaticLayout/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_a47fb06057b8bff38c8c8d10bf80c09dae1c3466
+file.0=/home/iveagh/AndroidStudioProjects/FragmentStaticLayout/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_2cb73120163e806435733d613616b62b10f67887/classes.dex

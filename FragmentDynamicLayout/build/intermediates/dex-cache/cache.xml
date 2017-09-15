@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/iveagh/AndroidStudioProjects/FragmentDynamicLayout/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c1f5a1e53022db89016a98016b7036a27b1052bc">
+        <dex dex="/home/iveagh/AndroidStudioProjects/FragmentDynamicLayout/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_8e695b7b836eab0004d07ac61ead851d866efaab/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/iveagh/AndroidStudioProjects/FragmentDynamicLayout/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/home/iveagh/AndroidStudioProjects/FragmentDynamicLayout/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_3f0d6ea8bdc954a6b6f13015e0967951ef1839d7/classes.dex" />
+    </item>
+
+</items>

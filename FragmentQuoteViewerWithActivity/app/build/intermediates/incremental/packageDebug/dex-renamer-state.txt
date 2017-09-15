@@ -1,0 +1,7 @@
+#Fri Sep 15 21:07:25 IST 2017
+base.0=/home/iveagh/AndroidStudioProjects/FragmentQuoteViewerWithActivity/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_8e13974fe7000575a92be57aa9d9f9b861e964cd
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/home/iveagh/AndroidStudioProjects/FragmentQuoteViewerWithActivity/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_f29ebe2e20b08a7d35458d935429575bae13d484/classes.dex
+base.1=/home/iveagh/AndroidStudioProjects/FragmentQuoteViewerWithActivity/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_f29ebe2e20b08a7d35458d935429575bae13d484
+file.0=/home/iveagh/AndroidStudioProjects/FragmentQuoteViewerWithActivity/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_8e13974fe7000575a92be57aa9d9f9b861e964cd/classes.dex

@@ -1,0 +1,21 @@
+#Internal package file, do not edit.
+#Fri Sep 15 21:11:54 IST 2017
+2.base=/home/iveagh/AndroidStudioProjects/FragmentDynamicLayout/app/build/intermediates/res/resources-debug.ap_
+5.file=/home/iveagh/AndroidStudioProjects/FragmentDynamicLayout/app/build/intermediates/res/resources-debug.ap_/res/layout/quote_fragment.xml
+5.set=ANDROID_RESOURCE
+3.base=/home/iveagh/AndroidStudioProjects/FragmentDynamicLayout/app/build/intermediates/res/resources-debug.ap_
+2.set=ANDROID_RESOURCE
+4.base=/home/iveagh/AndroidStudioProjects/FragmentDynamicLayout/app/build/intermediates/res/resources-debug.ap_
+count=6
+0.file=/home/iveagh/AndroidStudioProjects/FragmentDynamicLayout/app/build/intermediates/res/resources-debug.ap_/res/layout/main.xml
+5.base=/home/iveagh/AndroidStudioProjects/FragmentDynamicLayout/app/build/intermediates/res/resources-debug.ap_
+4.set=ANDROID_RESOURCE
+1.file=/home/iveagh/AndroidStudioProjects/FragmentDynamicLayout/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/ic_launcher.png
+1.set=ANDROID_RESOURCE
+2.file=/home/iveagh/AndroidStudioProjects/FragmentDynamicLayout/app/build/intermediates/res/resources-debug.ap_/res/layout/title_item.xml
+0.base=/home/iveagh/AndroidStudioProjects/FragmentDynamicLayout/app/build/intermediates/res/resources-debug.ap_
+3.file=/home/iveagh/AndroidStudioProjects/FragmentDynamicLayout/app/build/intermediates/res/resources-debug.ap_/resources.arsc
+3.set=ANDROID_RESOURCE
+1.base=/home/iveagh/AndroidStudioProjects/FragmentDynamicLayout/app/build/intermediates/res/resources-debug.ap_
+4.file=/home/iveagh/AndroidStudioProjects/FragmentDynamicLayout/app/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
+0.set=ANDROID_RESOURCE

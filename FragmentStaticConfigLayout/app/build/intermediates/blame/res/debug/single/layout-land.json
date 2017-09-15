@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/iveagh/AndroidStudioProjects/FragmentStaticConfigLayout/app/build/intermediates/res/merged/debug/layout-land/quote_fragment.xml",
+        "source": "/home/iveagh/AndroidStudioProjects/FragmentStaticConfigLayout/app/src/main/res/layout-land/quote_fragment.xml"
+    },
+    {
+        "merged": "/home/iveagh/AndroidStudioProjects/FragmentStaticConfigLayout/app/build/intermediates/res/merged/debug/layout-land/list_item.xml",
+        "source": "/home/iveagh/AndroidStudioProjects/FragmentStaticConfigLayout/app/src/main/res/layout-land/list_item.xml"
+    }
+]
