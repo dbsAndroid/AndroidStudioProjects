@@ -1,0 +1,21 @@
+#Internal package file, do not edit.
+#Sat Sep 16 18:22:15 IST 2017
+2.base=/home/iveagh/AndroidStudioProjects/MapLocationFromContacts/app/build/intermediates/res/resources-debug.ap_
+5.file=/home/iveagh/AndroidStudioProjects/MapLocationFromContacts/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_c65e13a4a72e56a895f3bbd1e8be273346c74e20/classes.dex
+5.set=DEX
+3.base=/home/iveagh/AndroidStudioProjects/MapLocationFromContacts/app/build/intermediates/res/resources-debug.ap_
+2.set=ANDROID_RESOURCE
+4.base=/home/iveagh/AndroidStudioProjects/MapLocationFromContacts/app/build/intermediates/res/resources-debug.ap_
+count=6
+0.file=/home/iveagh/AndroidStudioProjects/MapLocationFromContacts/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_7264c2299034246ac89b3826bd478a80c9ba7002/classes.dex
+5.base=/home/iveagh/AndroidStudioProjects/MapLocationFromContacts/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_c65e13a4a72e56a895f3bbd1e8be273346c74e20
+4.set=ANDROID_RESOURCE
+1.file=/home/iveagh/AndroidStudioProjects/MapLocationFromContacts/app/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
+1.set=ANDROID_RESOURCE
+2.file=/home/iveagh/AndroidStudioProjects/MapLocationFromContacts/app/build/intermediates/res/resources-debug.ap_/res/layout/main.xml
+0.base=/home/iveagh/AndroidStudioProjects/MapLocationFromContacts/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_7264c2299034246ac89b3826bd478a80c9ba7002
+3.file=/home/iveagh/AndroidStudioProjects/MapLocationFromContacts/app/build/intermediates/res/resources-debug.ap_/resources.arsc
+3.set=ANDROID_RESOURCE
+1.base=/home/iveagh/AndroidStudioProjects/MapLocationFromContacts/app/build/intermediates/res/resources-debug.ap_
+4.file=/home/iveagh/AndroidStudioProjects/MapLocationFromContacts/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/ic_launcher.png
+0.set=DEX

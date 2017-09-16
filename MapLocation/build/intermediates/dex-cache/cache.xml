@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/iveagh/AndroidStudioProjects/MapLocation/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/home/iveagh/AndroidStudioProjects/MapLocation/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_72179677d722b20fceb3fe9cf79397ce7ac5607c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/iveagh/AndroidStudioProjects/MapLocation/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="0562fcbbad2f563fe755a043521f0a0b1ac6ed91">
+        <dex dex="/home/iveagh/AndroidStudioProjects/MapLocation/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_785faa50e39a8279456e6ef77d5e8b22ffd1282d/classes.dex" />
+    </item>
+
+</items>

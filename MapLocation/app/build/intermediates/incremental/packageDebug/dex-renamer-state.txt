@@ -1,0 +1,7 @@
+#Sat Sep 16 18:20:01 IST 2017
+base.0=/home/iveagh/AndroidStudioProjects/MapLocation/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_72179677d722b20fceb3fe9cf79397ce7ac5607c
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/home/iveagh/AndroidStudioProjects/MapLocation/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_785faa50e39a8279456e6ef77d5e8b22ffd1282d/classes.dex
+base.1=/home/iveagh/AndroidStudioProjects/MapLocation/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_785faa50e39a8279456e6ef77d5e8b22ffd1282d
+file.0=/home/iveagh/AndroidStudioProjects/MapLocation/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_72179677d722b20fceb3fe9cf79397ce7ac5607c/classes.dex
