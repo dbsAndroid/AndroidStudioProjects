@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#fab</color>
+    <color name="colorPrimary">#0f0</color>
     <color name="colorPrimaryDark">#000</color>
     <color name="colorAccent">#f20b0b</color>
 
@@ -14,7 +14,7 @@
     <color name="olive">#808000</color>
     <color name="purple">#800080</color>
     <color name="maroon">#800000</color>
-    <color name="aqua">#00FFFF</color>
+    <color name="aqua">#00ffff</color>
     <color name="lime">#00ff00</color>
     <color name="teal">#008080</color>
     <color name="green">#008000</color>

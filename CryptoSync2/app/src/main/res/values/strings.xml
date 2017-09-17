@@ -19,6 +19,7 @@
 
 
     <string name="hello">Hello Android!</string>
+
     <!-- sandbox -->
     <string name="reg_string">Registrato, if you will</string>
 
@@ -38,4 +39,24 @@
         \nThe main point is that you will understand and visualise the blockchain in real-time and understand the technology behind Ethereum and Bitcoin.
         \nTake a look at the navigation bar as it has the main links and just use the hamburger bar from the top left."
     </string>
+    <string name="Import">Import from Camera</string>
+    <string name="Gallery">Gallery Pix</string>
+    <string name="Slideshow">Slideshow Story</string>
+    <string name="Tools">Toolbox</string>
+    <string name="Tools2">Tools2</string>
+    <string name="ToolsAero">ToolsAero</string>
+    <string name="Linux">Linux</string>
+    <string name="Windows">Windows</string>
+    <string name="Apple">Apple</string>
+    <string name="EthereumApi">Ethereuem API for etherscan.io</string>
+    <string name="Share">Share</string>
+    <string name="Send">Send</string>
+    <string name="Form1">Form1</string>
+    <string name="Form2">Form2</string>
+    <string name="gaeilge">Gaeilge</string>
+    <string name="tamil">Tamil</string>
+    <string name="contacts">Contact</string>
+    <string name="about">About</string>
+    <string name="english">English</string>
+    <string name="german">German</string>
 </resources>

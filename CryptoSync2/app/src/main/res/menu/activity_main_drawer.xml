@@ -6,55 +6,53 @@
             android:id="@+id/nav_camera"
             android:icon="@drawable/ic_menu_camera"
             android:tint="@color/colorPrimary"
-            android:title="Import"
+            android:title="@string/Import"
             android:visible="true" />
         <item
             android:id="@+id/nav_gallery"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+            android:title="@string/Gallery" />
         <item
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
+            android:title="@string/Slideshow" />
         <item
             android:id="@+id/nav_manage"
             android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:title="@string/Tools" />
         <item
-            android:id="@+id/nav_manage2"
-            android:icon="@drawable/ic_menu_t2"
-            android:title="Tools2" />
-        <item
-            android:id="@+id/nav_aero"
+            android:id="@+id/nav_map"
             android:icon="@drawable/ic_airplanemode_active_black_24dp"
-            android:title="ToolsAero" />
+            android:title="@string/map_app" />
+        <item
+            android:id="@+id/nav_eth_api"
+            android:icon="@drawable/ic_airplanemode_active_black_24dp"
+            android:title="@string/EthereumApi" />
+        <item
+            android:id="@+id/nav_form1"
+            android:icon="@drawable/ic_airplanemode_active_black_24dp"
+            android:title="@string/Form1" />
+        <item
+            android:id="@+id/nav_form2"
+            android:icon="@drawable/ic_airplanemode_active_black_24dp"
+            android:title="@string/Form2" />
     </group>
     <item android:title="Install Ethereum">
         <menu>
             <item
-                android:id="@+id/osLin1"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Linux" />
-            <item
-                android:id="@+id/osWin1"
+                android:id="@+id/osLin"
                 android:icon="@drawable/ic_menu_share"
-                android:title="Windows" />
+                android:title="@string/Linux" />
+            <item
+                android:id="@+id/osMac"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/Apple" />
+            <item
+                android:id="@+id/osWin"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/Windows" />
         </menu>
     </item>
-    <group android:checkableBehavior="single">
-        <item
-            android:id="@+id/osLin"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Linux O.S." />
-        <item
-            android:id="@+id/osWin"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Windows O.S." />
-        <item
-            android:id="@+id/fuzz"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="@string/fuzz"/>
-    </group>
     <item android:title="Themes">
         <group android:checkableBehavior="single">
             <menu >
@@ -74,11 +72,25 @@
             <item
                 android:id="@+id/nav_share"
                 android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:title="@string/Share" />
             <item
                 android:id="@+id/nav_send"
                 android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:title="@string/Send" />
         </menu>
     </item>
+    <!--<group android:checkableBehavior="single">-->
+    <!--<item-->
+    <!--android:id="@+id/osLin"-->
+    <!--android:icon="@drawable/ic_menu_manage"-->
+    <!--android:title="Linux O.S." />-->
+    <!--<item-->
+    <!--android:id="@+id/osWin"-->
+    <!--android:icon="@drawable/ic_menu_manage"-->
+    <!--android:title="Windows O.S." />-->
+    <!--<item-->
+    <!--android:id="@+id/fuzz"-->
+    <!--android:icon="@drawable/ic_menu_camera"-->
+    <!--android:title="@string/fuzz"/>-->
+    <!--</group>-->
 </menu>
