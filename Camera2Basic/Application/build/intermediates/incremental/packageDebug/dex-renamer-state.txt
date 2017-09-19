@@ -1,4 +1,4 @@
-#Tue Sep 12 10:38:09 IST 2017
+#Tue Sep 19 22:05:08 IST 2017
 base.0=/home/iveagh/AndroidStudioProjects/Camera2Basic/Application/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_4f956ff5d4f47bcae549a4f52a9837229c271f7a
 renamed.1=classes2.dex
 renamed.0=classes.dex

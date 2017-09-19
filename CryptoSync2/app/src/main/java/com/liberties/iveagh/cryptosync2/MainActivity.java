@@ -97,10 +97,56 @@ public class MainActivity extends AppCompatActivity
             finish();
         }
         if (id == R.id.action_hello) {
-            //return true;
+            //return true
             Intent helloIntent = new Intent(MainActivity.this, HelloAndroid.class);
-
-            //start Activity by using Intent regRage
+            //start Activity by using Intent
+            startActivity(helloIntent);
+        }
+        if (id == R.id.action_english) {
+            //return true
+            Intent helloIntent = new Intent(MainActivity.this, HelloAndroid.class);
+            //start Activity by using Intent
+            startActivity(helloIntent);
+        }
+        if (id == R.id.action_gaeilge) {
+            locale = new Locale("ga");
+//            Toast.makeText(this, "Íslanska", Toast.LENGTH_SHORT).show();
+            //return true;
+            Resources res = getResources();
+            DisplayMetrics dm = res.getDisplayMetrics();
+            Configuration conf = res.getConfiguration();
+            conf.locale = locale;
+            res.updateConfiguration(conf, dm);
+            Intent refresh = new Intent(this, MainActivity.class);
+            startActivity(refresh);
+            finish();
+//            //return true
+//            Intent helloIntent = new Intent(MainActivity.this, HelloAndroid.class);
+//            //start Activity by using Intent
+//            startActivity(helloIntent);
+        }
+        if (id == R.id.action_tamil) {
+            //return true
+            Intent helloIntent = new Intent(MainActivity.this, HelloAndroid.class);
+            //start Activity by using Intent
+            startActivity(helloIntent);
+        }
+        if (id == R.id.action_german) {
+            //return true
+            Intent helloIntent = new Intent(MainActivity.this, HelloAndroid.class);
+            //start Activity by using Intent
+            startActivity(helloIntent);
+        }
+        if (id == R.id.action_contacs) {
+            //return true
+            Intent helloIntent = new Intent(MainActivity.this, HelloAndroid.class);
+            //start Activity by using Intent
+            startActivity(helloIntent);
+        }
+        if (id == R.id.action_about) {
+            //return true
+            Intent helloIntent = new Intent(MainActivity.this, HelloAndroid.class);
+            //start Activity by using Intent
             startActivity(helloIntent);
         }
 
@@ -117,19 +163,37 @@ public class MainActivity extends AppCompatActivity
 
         if (id == R.id.nav_camera) {
             // Handle the camera action
+            Intent cameraPageIntent = new Intent(MainActivity.this, CameraActivity.class);
+            //start Activity by using Intent regRage
+            startActivity(cameraPageIntent);
         } else if (id == R.id.nav_gallery) {
             Intent regPageIntent = new Intent(MainActivity.this, HelloAndroid.class);
             //start Activity by using Intent regRage
             startActivity(regPageIntent);
-        } else if (id == R.id.nav_slideshow) {
-            // Create an explicit Intent for starting the loginScreen Activity
-            Intent loginScreenIntent = new Intent(MainActivity.this,
-                    LoginScreen.class);
-
+        } else if (id == R.id.nav_reg_login) {
+            // Create an explicit Intent for starting the reg + loginScreen Activity
+            Intent regloginScreenIntent = new Intent(MainActivity.this, LoginScreen.class);
             // Use the Intent to start loginScreen Activity
-            startActivity(loginScreenIntent);
-
+            startActivity(regloginScreenIntent);
         } else if (id == R.id.nav_manage) {
+
+        } else if (id == R.id.nav_map) {
+
+        } else if (id == R.id.nav_eth_api){
+
+        } else if (id == R.id.nav_form1){
+
+        } else if (id == R.id.nav_form2){
+
+        } else if (id == R.id.osLin) {
+
+        } else if (id == R.id.osMac) {
+
+        } else if (id == R.id.osWin) {
+
+        } else if (id == R.id.theme_light) {
+
+        } else if (id == R.id.theme_dark) {
 
         } else if (id == R.id.nav_share) {
 

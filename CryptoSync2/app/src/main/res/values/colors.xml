@@ -24,4 +24,5 @@
     <!-- or we could reference it other than black to abstract color from button, design from implementation -->
     <!--<color name="button_clicked">#000000</color>-->
     <!--<color name="background_material_light">#000000</color>-->
+    <color name="control_background">#cc4285f4</color>
 </resources>

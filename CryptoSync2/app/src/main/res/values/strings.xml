@@ -6,7 +6,7 @@
     <string name="action_settings">Settings</string>
 
     <!--Strings-->
-<string name="app_name1">HelloAndroidWithLoginAndRegistration</string>
+    <string name="app_name1">HelloAndroidWithLoginAndRegistration</string>
     <string name="email_string">Email</string>
     <string name="username_string">UserName</string>
     <string name="password_string">Password</string>
@@ -31,7 +31,7 @@
     <string name="show_map_string">Show Map</string>
     <string name="location_string">Enter Location</string>
     <string name="map_app">"Map App"</string>
-    
+
     <string name="fuzz">"--------fuzzzzz--- :-)"</string>
 
     <!-- main content -->
@@ -41,7 +41,7 @@
     </string>
     <string name="Import">Import from Camera</string>
     <string name="Gallery">Gallery Pix</string>
-    <string name="Slideshow">Slideshow Story</string>
+    <string name="RegLogin">Register || Login</string>
     <string name="Tools">Toolbox</string>
     <string name="Tools2">Tools2</string>
     <string name="ToolsAero">ToolsAero</string>
@@ -59,4 +59,10 @@
     <string name="about">About</string>
     <string name="english">English</string>
     <string name="german">German</string>
+
+    <!-- Camera2Basic-->
+    <string name="picture">Picture</string>
+    <string name="description_info">Info</string>
+    <string name="request_permission">This sample needs camera permission.</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
 </resources>

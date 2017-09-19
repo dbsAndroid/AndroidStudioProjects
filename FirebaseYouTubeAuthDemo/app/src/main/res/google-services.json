@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "778960817565",
+    "firebase_url": "https://fir-youtubeauthapp.firebaseio.com",
+    "project_id": "fir-youtubeauthapp",
+    "storage_bucket": "fir-youtubeauthapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778960817565:android:370eac9a323a0098",
+        "android_client_info": {
+          "package_name": "com.liberties.iveagh.firebaseyoutubeauthdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778960817565-h9lj65q5agoocvronnl2kfkg3chfi9i0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhuO604f8nV4wFF5pE18c5PlBlYQn6M3U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

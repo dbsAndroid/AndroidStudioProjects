@@ -1,4 +1,4 @@
-#Tue Sep 12 10:38:08 IST 2017
+#Tue Sep 19 22:05:08 IST 2017
 base.0=/home/iveagh/AndroidStudioProjects/Camera2Basic/Application/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7
 renamed.0=classes.dex
 file.0=/home/iveagh/AndroidStudioProjects/Camera2Basic/Application/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex
