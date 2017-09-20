@@ -68,5 +68,5 @@
     <string name="title_activity_ethereum_main">EthereumMain</string>
 
     <!-- Ethereum API-->
-    <string name="load_data_string">Load Data</string>
+    <string name="load_data_string">Load Etherscan.io API Call Data</string>
 </resources>

@@ -1,6 +1,7 @@
 package com.liberties.iveagh.cryptosync2;
 
         import java.io.IOException;
+        import java.math.BigDecimal;
         import java.util.ArrayList;
         import java.util.List;
 
@@ -70,6 +71,8 @@ public class EthereumAPI extends ListActivity {
         private static final String RESULT_TAG = "result";
         private static final String ACCOUNT_TAG = "account";
         private static final String BALANCE_TAG = "balance";
+        private static final String ETHEREUM_TAG = "ethereum=wei/10x18";
+        //private Double double ETHEREUMWEI;
 
         @Override
         public List<String> handleResponse(HttpResponse response)
@@ -96,11 +99,15 @@ public class EthereumAPI extends ListActivity {
 
                     //convert string element to int?
                     //int BALANCE_TAG_INT = ether.get(BALANCE_TAG);
+                    //Double wei = ether.getDouble("BALANCE_TAG");
+                    //int wei2 = Integer.parseInt(ether.get(BALANCE_TAG));
+                    //String ethereumString = toString(wei);
 
                     resultout.add(ACCOUNT_TAG + ":\n"
                             + ether.get(ACCOUNT_TAG) + "\n"
                             + BALANCE_TAG + ":\n"
-                            + ether.get(BALANCE_TAG));
+                            + ether.get(BALANCE_TAG) + "\n"
+                            + ETHEREUM_TAG + ":\n");
                 }
             } catch (JSONException e) {
                 e.printStackTrace();
