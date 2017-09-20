@@ -180,7 +180,10 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_map) {
 
         } else if (id == R.id.nav_eth_api){
-
+            // Create an explicit Intent for starting the reg + loginScreen Activity
+            Intent ethereumMainIntent = new Intent(MainActivity.this, EthereumMain.class);
+            // Use the Intent to start loginScreen Activity
+            startActivity(ethereumMainIntent);
         } else if (id == R.id.nav_form1){
 
         } else if (id == R.id.nav_form2){

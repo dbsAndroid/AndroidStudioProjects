@@ -48,7 +48,7 @@
     <string name="Linux">Linux</string>
     <string name="Windows">Windows</string>
     <string name="Apple">Apple</string>
-    <string name="EthereumApi">Ethereuem API for etherscan.io</string>
+    <string name="EthereumApi">Etherscan.io API</string>
     <string name="Share">Share</string>
     <string name="Send">Send</string>
     <string name="Form1">Form1</string>
@@ -65,4 +65,8 @@
     <string name="description_info">Info</string>
     <string name="request_permission">This sample needs camera permission.</string>
     <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+    <string name="title_activity_ethereum_main">EthereumMain</string>
+
+    <!-- Ethereum API-->
+    <string name="load_data_string">Load Data</string>
 </resources>
