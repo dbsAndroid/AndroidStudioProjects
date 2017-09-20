@@ -25,6 +25,10 @@
             android:icon="@drawable/ic_airplanemode_active_black_24dp"
             android:title="@string/map_app" />
         <item
+            android:id="@+id/nav_map_contacts"
+            android:icon="@drawable/ic_airplanemode_active_black_24dp"
+            android:title="@string/map_contacts_app" />
+        <item
             android:id="@+id/nav_eth_api"
             android:icon="@drawable/ic_airplanemode_active_black_24dp"
             android:title="@string/EthereumApi" />

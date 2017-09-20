@@ -54,73 +54,16 @@ public class LoginScreen extends Activity {
             }
         });
 
-        //try some registration
-        final Button regBtn = (Button) findViewById(R.id.regBtn);
-        regBtn.setOnClickListener(new OnClickListener() {
-            public void onClick(View v) {
-                Intent regPageIntent = new Intent(LoginScreen.this, RegistrationPage.class);
-
-                //start Activity by using Intent regRage
-                startActivity(regPageIntent);
-            }
-        });
-
-
-
-        //final EditText btnTxt = "that button was clicked";
-        //
-        final EditText editText = (EditText) findViewById(R.id.editText);
-        final Button button = (Button) findViewById(R.id.button);
-        button.setOnClickListener(new OnClickListener() {
-            public void onClick(View v) {
-                //try to find output text pane
-                //findViewById(R.id.editText);
-                button.setText("got Pressed");
-                editText.setText("That was one serious button today" +
-                        "and I've had fun " +
-                        "/n to be sure");
-            }
-        });
-
-        //try some mapping
-        final Button mapbtn = (Button) findViewById(R.id.mapbtn);
-        mapbtn.setOnClickListener(new OnClickListener() {
-            public void onClick(View v) {
-                Intent mapAppIntent = new Intent(LoginScreen.this, MapLocation.class);
-
-                //start Activity by using Intent
-                startActivity(mapAppIntent);
-            }
-        });
-
-        //try some mapping
-        final Button mapbtn1 = (Button) findViewById(R.id.mapbtn1);
-        mapbtn1.setOnClickListener(new OnClickListener() {
-            public void onClick(View v) {
-                Intent mapContactsAppIntent = new Intent(LoginScreen.this, MapLocationFromContacts.class);
-
-                //start Activity by using Intent
-                startActivity(mapContactsAppIntent);
-            }
-        });
-
-        final EditText editText2 = (EditText) findViewById(R.id.editText2);
-        final ToggleButton toggleButton = (ToggleButton) findViewById(R.id.toggleButton);
-        toggleButton.setOnClickListener(new OnClickListener() {
-            public void onClick(View v) {
-                if (toggleButton.isChecked()) {
-                    toggleButton.setBackgroundColor(getResources().getColor(R.color.yellow));
-                }
-                else {
-                    toggleButton.setBackgroundColor(getResources().getColor(R.color.lime));
-                    editText2.setTextColor(getResources().getColor(R.color.green));
-                    editText2.setText("that was greeny" +
-                            "what else to do?");
-                    editText2.setBackgroundColor(getResources().getColor(R.color.aqua));
-                }
-            }
-        });
-
+//        //try some registration
+//        final Button regBtn = (Button) findViewById(R.id.regBtn);
+//        regBtn.setOnClickListener(new OnClickListener() {
+//            public void onClick(View v) {
+//                Intent regPageIntent = new Intent(LoginScreen.this, RegistrationPage.class);
+//
+//                //start Activity by using Intent regRage
+//                startActivity(regPageIntent);
+//            }
+//        });
     }
 
     private boolean checkPassword(Editable uname, Editable passwd) {

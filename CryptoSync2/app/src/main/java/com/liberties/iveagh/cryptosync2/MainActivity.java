@@ -149,9 +149,7 @@ public class MainActivity extends AppCompatActivity
             //start Activity by using Intent
             startActivity(helloIntent);
         }
-
 //        return true;
-
         return super.onOptionsItemSelected(item);
     }
 
@@ -178,7 +176,15 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_manage) {
 
         } else if (id == R.id.nav_map) {
-
+            // Create an explicit Intent for starting the reg + loginScreen Activity
+            Intent mapLocationIntent = new Intent(MainActivity.this, MapLocation.class);
+            // Use the Intent to start loginScreen Activity
+            startActivity(mapLocationIntent);
+        } else if (id == R.id.nav_map_contacts) {
+            // Create an explicit Intent for starting the reg + loginScreen Activity
+            Intent mapContactsIntent = new Intent(MainActivity.this, MapLocationContacts.class);
+            // Use the Intent to start loginScreen Activity
+            startActivity(mapContactsIntent);
         } else if (id == R.id.nav_eth_api){
             // Create an explicit Intent for starting the reg + loginScreen Activity
             Intent ethereumMainIntent = new Intent(MainActivity.this, EthereumMain.class);

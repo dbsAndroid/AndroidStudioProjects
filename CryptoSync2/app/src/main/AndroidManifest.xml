@@ -15,7 +15,6 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -44,31 +43,29 @@
             android:name=".RegistrationScreen"
             android:label="@string/app_name" />
         <activity
-            android:name=".RegistrationPage"
-            android:label="@string/app_name" />
-        <activity
-            android:name=".MapLocationFromContacts"
-            android:label="@string/app_name" />
-        <activity
             android:name=".MapLocation"
             android:label="@string/app_name" />
+        <activity
+            android:name=".MapLocationContacts"
+            android:label="@string/app_name"
+            android:theme="@style/blacklime"/>
         <activity
             android:name=".CameraActivity"
             android:label="@string/app_name" />
         <activity
             android:name=".EthereumMain"
             android:label="@string/app_name"
-            android:theme="@style/blacklime"/>
+            android:theme="@style/blacklime" />
         <activity
             android:name=".EthereumAPI"
             android:label="@string/app_name"
-            android:theme="@style/blacklime"/>
-        <!--<activity-->
-            <!--android:name=".Camera2BasicFragment"-->
-            <!--android:label="@string/app_name" />-->
-        <!--<activity-->
-            <!--android:name=".AutoFitTextureView"-->
-            <!--android:label="@string/app_name" />-->
+            android:theme="@style/blacklime" />
+        <!-- <activity -->
+        <!-- android:name=".Camera2BasicFragment" -->
+        <!-- android:label="@string/app_name" /> -->
+        <!-- <activity -->
+        <!-- android:name=".AutoFitTextureView" -->
+        <!-- android:label="@string/app_name" /> -->
 
         <!-- <activity -->
         <!-- android:name=".HelloActivity" -->
@@ -76,5 +73,4 @@
         <!-- android:theme="@style/blackred"> -->
         <!-- </activity> -->
     </application>
-
 </manifest>
