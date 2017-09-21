@@ -48,7 +48,7 @@
         <activity
             android:name=".MapLocationContacts"
             android:label="@string/app_name"
-            android:theme="@style/blacklime"/>
+            android:theme="@style/blacklime" />
         <activity
             android:name=".CameraActivity"
             android:label="@string/app_name" />
@@ -67,10 +67,15 @@
         <!-- android:name=".AutoFitTextureView" -->
         <!-- android:label="@string/app_name" /> -->
 
+
         <!-- <activity -->
         <!-- android:name=".HelloActivity" -->
         <!-- android:label="@string/app_name" -->
         <!-- android:theme="@style/blackred"> -->
         <!-- </activity> -->
+        <activity android:name=".FirebaseActivity" />
+        <activity android:name=".FirebaseProfile" />
+        <activity android:name=".FirebaseLogin"></activity>
     </application>
+
 </manifest>

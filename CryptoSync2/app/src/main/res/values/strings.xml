@@ -71,5 +71,6 @@
     <string name="load_data_string">Load Etherscan.io API Call Data</string>
     <string name="map_app1">MapApp1</string>
     <string name="map_app2">MapApp2</string>
+    <string name="FirebaseRegLogin">Firebase Register &amp; Login</string>
 
 </resources>
