@@ -2,9 +2,9 @@ package com.liberties.iveagh.firebaseyoutube2login;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
-import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
@@ -17,12 +17,12 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class LoginActivity extends AppCompatActivity implements View.OnClickListener {
 
-    private Button buttonRegister;
+    private Button buttonSignin;
     private EditText editTextEmail;
     private EditText editTextPassword;
-    private TextView textViewSignin;
+    private TextView textViewSignup;
 
     private FirebaseAuth firebaseAuth;
 
@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_login);
 
         firebaseAuth = FirebaseAuth.getInstance();
 
@@ -43,16 +43,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         progressDialog = new ProgressDialog(this);
 
-        buttonRegister = (Button) findViewById(R.id.buttonRegister);
+        buttonSignin = (Button) findViewById(R.id.buttonSignin);
         editTextEmail = (EditText) findViewById(R.id.editTextEmail);
         editTextPassword = (EditText) findViewById(R.id.editTextPassword);
-        textViewSignin = (TextView) findViewById(R.id.textViewSignin);
+        textViewSignup = (TextView) findViewById(R.id.textViewSignup);
 
-        buttonRegister.setOnClickListener(this);
-        textViewSignin.setOnClickListener(this);
+        buttonSignin.setOnClickListener(this);
+        textViewSignup.setOnClickListener(this);
     }
 
-    private void registerUser() {
+    private void userLogin() {
         String email = editTextEmail.getText().toString().trim();
         String password = editTextPassword.getText().toString().trim();
 
@@ -69,28 +69,29 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             return;
         }
         //show progress bar
-        progressDialog.setMessage("Registering user now to firebase services...");
+        progressDialog.setMessage("Logging in now to firebase services...");
         progressDialog.show();
 
-        firebaseAuth.createUserWithEmailAndPassword(email, password)
+        firebaseAuth.signInWithEmailAndPassword(email, password)
                 .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
+                        //progressDialog.dismiss();
                         if (task.isSuccessful()) {
                             //new user is successfully registered + logged in
                             //start profile activity here
                             //start with basic Toast
-                            progressDialog.setMessage("Registering user now to firebase services...");
-                            Toast.makeText(MainActivity.this, "New user created", Toast.LENGTH_LONG).show();
-                            progressDialog.dismiss();
+                            progressDialog.setMessage("Login successful! User now on firebase services...");
+                            Toast.makeText(LoginActivity.this, "Welcome to Android + Firebase...", Toast.LENGTH_LONG).show();
+                            //progressDialog.dismiss();
+                            finish();
+                            startActivity(new Intent(getApplicationContext(), ProfileActivity.class));
                             //stp function from executing further
                             //return;
                             //finish();
-                                finish();
-                                startActivity(new Intent(getApplicationContext(), ProfileActivity.class));
                         } else {
-                            progressDialog.setMessage("Registering user now to firebase services...");
-                            Toast.makeText(MainActivity.this, "Failed to create user", Toast.LENGTH_LONG).show();
+                            progressDialog.setMessage("Failed to login to firebase services...");
+                            Toast.makeText(LoginActivity.this, "Failed to create user", Toast.LENGTH_LONG).show();
                             //stp function from executing further
                             progressDialog.dismiss();
                             //progressDialog.cancel();
@@ -99,16 +100,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         }
                     }
                 });
-        //progressDialog.cancel();
     }
 
     @Override
-    public void onClick(View view) {
-        if (view == buttonRegister) {
-            registerUser();
-        } if (view == textViewSignin){
-            // login()
-            startActivity(new Intent(this, LoginActivity.class));
+    public void onClick(View view){
+        if (view == buttonSignin) {
+            userLogin();
+        }
+
+        if (view == textViewSignup){
+            finish();
+            startActivity(new Intent(this, MainActivity.class));
         }
     }
 }

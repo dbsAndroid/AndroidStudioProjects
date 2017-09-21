@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/RelativeLayout1"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:layout_centerHorizontal="true"
-    android:layout_centerVertical="true">
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context="com.liberties.iveagh.firebaseyoutube2login.LoginActivity">
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -19,7 +23,7 @@
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="User Registration - Sign up" />
+            android:text="User Login" />
 
         <EditText
             android:id="@+id/editTextEmail"
@@ -36,18 +40,18 @@
             android:inputType="textPassword"/>
 
         <Button
-            android:id="@+id/buttonRegister"
+            android:id="@+id/buttonSignin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Register User" />
+            android:text="Login - User" />
 
         <TextView
-            android:id="@+id/textViewSignin"
+            android:id="@+id/textViewSignup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Already Regiestered? Sign in here."
+            android:text="Create new user? Sign up here."
             android:textAlignment="center" />
 
-
     </LinearLayout>
+
 </RelativeLayout>
