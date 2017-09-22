@@ -72,5 +72,11 @@
     <string name="map_app1">MapApp1</string>
     <string name="map_app2">MapApp2</string>
     <string name="FirebaseRegLogin">Firebase Register &amp; Login</string>
+    <string name="title_activity_linux_etherum_bottom_nav">LinuxEtherumBottomNav</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_linux_ethereum_tabbed">LinuxEthereumTabbed</string>
+    <string name="section_format">Hello World from section: %1$d</string>
 
 </resources>
