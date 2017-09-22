@@ -177,7 +177,8 @@ public class MainActivity extends AppCompatActivity
             Intent firebaseRegLoginIntent = new Intent(MainActivity.this, FirebaseActivity.class);
             startActivity(firebaseRegLoginIntent);
         } else if (id == R.id.nav_manage) {
-
+            Intent settingsActivity = new Intent(MainActivity.this, SettingsActivity.class);
+            startActivity(settingsActivity);
         } else if (id == R.id.nav_map) {
             // Create an explicit Intent for starting the reg + loginScreen Activity
             Intent mapLocationIntent = new Intent(MainActivity.this, MapLocation.class);
