@@ -204,12 +204,13 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_form2){
 
         } else if (id == R.id.osLin) {
-//            Intent linuxEthereumBottomNav = new Intent(MainActivity.this, LinuxEtherumBottomNav.class);
-//            startActivity(linuxEthereumBottomNav);
-        } else if (id == R.id.osMac) {
             Intent linuxEthereumTabbed = new Intent(MainActivity.this, LinuxEthereumTabbed.class);
             startActivity(linuxEthereumTabbed);
-
+            //Intent linuxEthereumBottomNav = new Intent(MainActivity.this, LinuxEtherumBottomNav.class);
+            //startActivity(linuxEthereumBottomNav);
+        } else if (id == R.id.osMac) {
+            //Intent linuxEthereumTabbed = new Intent(MainActivity.this, LinuxEthereumTabbed.class);
+            //startActivity(linuxEthereumTabbed);
         } else if (id == R.id.osWin) {
 
         } else if (id == R.id.theme_light) {

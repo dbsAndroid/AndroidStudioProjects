@@ -148,18 +148,17 @@ public class LinuxEthereumTabbed extends AppCompatActivity {
                         "\n\t\t100Gb to start with. Must have room to expand." +
                         "\n\tRAM" +
                         "\n\t\t6Gb Minimum" +
-                        "\n\tGolang is a new imperative language from Google and aims to update C for modern computing " +
-                        "environments with new technologies like concurrency." +
-                        "\n\nEthereum Browser + Mist" +
-                        "\n\n" +
-                        "\nSystem Requirements" +
+                        "\n\tSwap Space" +
+                        "\n\t\t4Gb Minimum" +
                         "\n\tNetwork Speeds" +
-                        "\n\t\tMakes the differencce between this taking 6 hrs and 6 days. if it takes longer you may already be " +
-                        "out of the game." +
-                        "\n\tROM" +
-                        "\n\t\t100Gb to start with. Must have room to expand." +
-                        "\n\tRAM" +
-                        "\n\t\t6Gb Minimum");
+                                "\n\t\tMakes the differencce between this taking 6 hrs and 6 days. if it takes longer you may already be " +
+                                "out of the game." +
+                                "\n\tROM" +
+                                "\n\t\t100Gb to start with. Must have room to expand." +
+                                "\n\tRAM" +
+                                "\n\t\t6Gb Minimum" +
+                                "\n\tSwap Space" +
+                                "\n\t\t4Gb Minimum");
             }
             if (getArguments().getInt(ARG_SECTION_NUMBER) == 2) {
                 textViewPage.setText("\n\nBegin Blcoackchain Install" +
@@ -179,7 +178,7 @@ public class LinuxEthereumTabbed extends AppCompatActivity {
                                 "\n\n" +
                                 "\nSystem Requirements" +
                                 "\n\tNetwork Speeds" +
-                                "\n\t\tMakes the differencce between this taking 6 hrs and 6 days. if it takes longer you may already be " +
+                                "\n\t\tMakes the difference between this taking 6 hrs and 6 days. if it takes longer you may already be " +
                                 "out of the game." +
                                 "\n\tROM" +
                                 "\n\t\t100Gb to start with. Must have room to expand." +
@@ -212,7 +211,7 @@ public class LinuxEthereumTabbed extends AppCompatActivity {
                                 "\n\tRAM" +
                                 "\n\t\t6Gb Minimum");
             }
-            //end textView2
+            //end textViewPage
             return rootView;
         }
     }
