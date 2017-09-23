@@ -1,5 +1,6 @@
 package com.liberties.iveagh.cryptosync2;
 
+import android.content.Intent;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
@@ -16,7 +17,10 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
+import android.widget.ImageButton;
 import android.widget.TextView;
+
+import org.w3c.dom.Text;
 
 public class LinuxEthereumTabbed extends AppCompatActivity {
 
@@ -55,7 +59,7 @@ public class LinuxEthereumTabbed extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "Fab fab fabsn", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
@@ -78,8 +82,15 @@ public class LinuxEthereumTabbed extends AppCompatActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
+        if (id == R.id.action_main) {
+            Intent mainActivityIntent = new Intent(LinuxEthereumTabbed.this, MainActivity.class);
+            startActivity(mainActivityIntent);
+            //return true;
+        }
         if (id == R.id.action_settings) {
-            return true;
+            Intent settingsActivityIntent = new Intent(LinuxEthereumTabbed.this, SettingsActivity.class);
+            startActivity(settingsActivityIntent);
+            //return true;
         }
 
         return super.onOptionsItemSelected(item);
@@ -116,6 +127,53 @@ public class LinuxEthereumTabbed extends AppCompatActivity {
             View rootView = inflater.inflate(R.layout.fragment_linux_ethereum_tabbed, container, false);
             TextView textView = (TextView) rootView.findViewById(R.id.section_label);
             textView.setText(getString(R.string.section_format, getArguments().getInt(ARG_SECTION_NUMBER)));
+
+            TextView textViewPage = (TextView) rootView.findViewById(R.id.section_page);
+
+            if (getArguments().getInt(ARG_SECTION_NUMBER) == 0) {
+                textViewPage.setText("\n\nprogram page with java individually\nthis being page intro" +
+                        "\nThis is an Introduction to the Blockchain.");
+            }
+            if (getArguments().getInt(ARG_SECTION_NUMBER) == 1) {
+                textViewPage.setText("\n\nprogram page with java individually" +
+                        "\nthis being page begin" +
+                        "\nSetup Tech Page" +
+                        "\n\n" +
+                        "\nGeth - Go + Ethereum" +
+                        "\n\tGolang is a new imperative language from Google and aims to update C for modern computing " +
+                        "environments with new technologies like concurrency." +
+                        "\n\nEthereum Browser + Mist" +
+                        "\n\n" +
+                        "\nSystem Requirements" +
+                        "\n\tNetwork Speeds" +
+                        "\n\t\tMakes the differencce between this taking 6 hrs and 6 days. if it takes longer you may already be " +
+                        "out of the game." +
+                        "\n\tROM" +
+                        "\n\t\t100Gb to start with. Must have room to expand." +
+                        "\n\tRAM" +
+                        "\n\t\t6Gb Minimum" +
+                        "\n\tGolang is a new imperative language from Google and aims to update C for modern computing " +
+                        "environments with new technologies like concurrency." +
+                        "\n\nEthereum Browser + Mist" +
+                        "\n\n" +
+                        "\nSystem Requirements" +
+                        "\n\tNetwork Speeds" +
+                        "\n\t\tMakes the differencce between this taking 6 hrs and 6 days. if it takes longer you may already be " +
+                        "out of the game." +
+                        "\n\tROM" +
+                        "\n\t\t100Gb to start with. Must have room to expand." +
+                        "\n\tRAM" +
+                        "\n\t\t6Gb Minimum"
+
+                );
+            }
+            if (getArguments().getInt(ARG_SECTION_NUMBER) == 2) {
+                textViewPage.setText("\n\nprogram page with java individually\nthis being page environment");
+            }
+            if (getArguments().getInt(ARG_SECTION_NUMBER) == 3) {
+                textViewPage.setText("\n\nprogram page with java individually\nthis being page links");
+            }
+            //end textView2
             return rootView;
         }
     }
@@ -139,8 +197,8 @@ public class LinuxEthereumTabbed extends AppCompatActivity {
 
         @Override
         public int getCount() {
-            // Show 3 total pages.
-            return 3;
+            // Show 4 total pages.
+            return 4;
         }
 
         @Override
@@ -152,6 +210,8 @@ public class LinuxEthereumTabbed extends AppCompatActivity {
                     return "SECTION 2";
                 case 2:
                     return "SECTION 3";
+                case 3:
+                    return "SECTION 4";
             }
             return null;
         }

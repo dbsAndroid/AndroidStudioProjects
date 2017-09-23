@@ -17,6 +17,10 @@
             android:icon="@drawable/ic_menu_slideshow"
             android:title="@string/RegLogin" />
         <item
+            android:id="@+id/nav_reg_login_google"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/RegLoginGoogle" />
+        <item
             android:id="@+id/nav_firebase_reg_login"
             android:icon="@drawable/ic_airplanemode_active_black_24dp"
             android:title="@string/FirebaseRegLogin" />

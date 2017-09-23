@@ -173,6 +173,11 @@ public class MainActivity extends AppCompatActivity
             Intent regloginScreenIntent = new Intent(MainActivity.this, LoginScreen.class);
             // Use the Intent to start loginScreen Activity
             startActivity(regloginScreenIntent);
+        } else if (id == R.id.nav_reg_login_google) {
+            // Create an explicit Intent for starting the reg + loginScreen Activity
+            Intent regLoginGoogleIntent = new Intent(MainActivity.this, LoginGoogleActivity.class);
+            // Use the Intent to start loginScreen Activity
+            startActivity(regLoginGoogleIntent);
         } else if (id == R.id.nav_firebase_reg_login){
             Intent firebaseRegLoginIntent = new Intent(MainActivity.this, FirebaseActivity.class);
             startActivity(firebaseRegLoginIntent);
