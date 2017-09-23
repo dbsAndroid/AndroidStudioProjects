@@ -125,15 +125,11 @@ public class LinuxEthereumTabbed extends AppCompatActivity {
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
             View rootView = inflater.inflate(R.layout.fragment_linux_ethereum_tabbed, container, false);
+
             TextView textView = (TextView) rootView.findViewById(R.id.section_label);
             textView.setText(getString(R.string.section_format, getArguments().getInt(ARG_SECTION_NUMBER)));
 
             TextView textViewPage = (TextView) rootView.findViewById(R.id.section_page);
-
-            if (getArguments().getInt(ARG_SECTION_NUMBER) == 0) {
-                textViewPage.setText("\n\nprogram page with java individually\nthis being page intro" +
-                        "\nThis is an Introduction to the Blockchain.");
-            }
             if (getArguments().getInt(ARG_SECTION_NUMBER) == 1) {
                 textViewPage.setText("\n\nprogram page with java individually" +
                         "\nthis being page begin" +
@@ -163,15 +159,58 @@ public class LinuxEthereumTabbed extends AppCompatActivity {
                         "\n\tROM" +
                         "\n\t\t100Gb to start with. Must have room to expand." +
                         "\n\tRAM" +
-                        "\n\t\t6Gb Minimum"
-
-                );
+                        "\n\t\t6Gb Minimum");
             }
             if (getArguments().getInt(ARG_SECTION_NUMBER) == 2) {
-                textViewPage.setText("\n\nprogram page with java individually\nthis being page environment");
-            }
+                textViewPage.setText("\n\nBegin Blcoackchain Install" +
+                        "\n\n" +
+                        "\nGeth commands" +
+                        "\n\n" +
+                        "\n\tStart" +
+                        "\n\tStop" +
+                        "\n\n" +
+                        "\nEth.js" +
+                        "\n\t\tWith ethereum.sync we can perform calls on geth blockchain." +
+                        "\n\n\n----------------------" +
+                        "\n\t\t6Gb Minimum" +
+                                "\n\tGolang is a new imperative language from Google and aims to update C for modern computing " +
+                                "environments with new technologies like concurrency." +
+                                "\n\nEthereum Browser + Mist" +
+                                "\n\n" +
+                                "\nSystem Requirements" +
+                                "\n\tNetwork Speeds" +
+                                "\n\t\tMakes the differencce between this taking 6 hrs and 6 days. if it takes longer you may already be " +
+                                "out of the game." +
+                                "\n\tROM" +
+                                "\n\t\t100Gb to start with. Must have room to expand." +
+                                "\n\tRAM" +
+                                "\n\t\t6Gb Minimum");
+            };
             if (getArguments().getInt(ARG_SECTION_NUMBER) == 3) {
-                textViewPage.setText("\n\nprogram page with java individually\nthis being page links");
+                textViewPage.setText("\n\nSystem and Blockchain Maintenance" +
+                        "\n\n" +
+                        "\nChronography" +
+                        "\n\t\tFind the best time to download - usually in mornign or late at night." +
+                        "\nDepends upon net speeds. " +
+                        "\nIt is actually possible to download on 3G if main sync " +
+                        "is achieved first." +
+                        "\n\n" +
+                        "\nFree up system resources: memory" +
+                        "\n\tBleachBit" +
+                        "\n\n\n----------------------" +
+                                "\n\t\t6Gb Minimum" +
+                                "\n\tGolang is a new imperative language from Google and aims to update C for modern computing " +
+                                "environments with new technologies like concurrency." +
+                                "\n\nEthereum Browser + Mist" +
+                                "\n\n" +
+                                "\nSystem Requirements" +
+                                "\n\tNetwork Speeds" +
+                                "\n\t\tMakes the differencce between this taking 6 hrs and 6 days. if it takes longer you may already be " +
+                                "out of the game." +
+                                "\n\tROM" +
+                                "\n\t\t100Gb to start with. Must have room to expand." +
+                                "\n\tRAM" +
+                                "\n\t\t6Gb Minimum");
             }
             //end textView2
             return rootView;
@@ -198,7 +237,7 @@ public class LinuxEthereumTabbed extends AppCompatActivity {
         @Override
         public int getCount() {
             // Show 4 total pages.
-            return 4;
+            return 3;
         }
 
         @Override
@@ -210,8 +249,6 @@ public class LinuxEthereumTabbed extends AppCompatActivity {
                     return "SECTION 2";
                 case 2:
                     return "SECTION 3";
-                case 3:
-                    return "SECTION 4";
             }
             return null;
         }
