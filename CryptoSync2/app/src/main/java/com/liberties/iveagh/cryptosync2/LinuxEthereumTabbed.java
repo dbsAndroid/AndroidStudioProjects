@@ -1,6 +1,8 @@
 package com.liberties.iveagh.cryptosync2;
 
 import android.content.Intent;
+import android.content.res.Configuration;
+import android.content.res.Resources;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
@@ -11,6 +13,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.os.Bundle;
+import android.util.DisplayMetrics;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -21,6 +24,8 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 
 import org.w3c.dom.Text;
+
+import java.util.Locale;
 
 public class LinuxEthereumTabbed extends AppCompatActivity {
 
@@ -80,9 +85,10 @@ public class LinuxEthereumTabbed extends AppCompatActivity {
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
-
+        Locale locale = null;
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_main) {
+            //use backStack?
             Intent mainActivityIntent = new Intent(LinuxEthereumTabbed.this, MainActivity.class);
             startActivity(mainActivityIntent);
             //return true;
@@ -90,8 +96,66 @@ public class LinuxEthereumTabbed extends AppCompatActivity {
         if (id == R.id.action_settings) {
             Intent settingsActivityIntent = new Intent(LinuxEthereumTabbed.this, SettingsActivity.class);
             startActivity(settingsActivityIntent);
-            //return true;
+            //return true
         }
+        if (id == R.id.action_hello) {
+            //return true
+            Intent helloIntent = new Intent(LinuxEthereumTabbed.this, HelloAndroid.class);
+            //start Activity by using Intent
+            startActivity(helloIntent);
+        }
+        if (id == R.id.action_english) {
+            //return true
+            Intent helloIntent = new Intent(LinuxEthereumTabbed.this, MainActivity.class);
+            //start Activity by using Intent
+            startActivity(helloIntent);
+        }
+        if (id == R.id.action_gaeilge) {
+            locale = new Locale("ga");
+            Resources res = getResources();
+            DisplayMetrics dm = res.getDisplayMetrics();
+            Configuration conf = res.getConfiguration();
+            conf.locale = locale;
+            res.updateConfiguration(conf, dm);
+            Intent refresh = new Intent(LinuxEthereumTabbed.this, MainActivity.class);
+            startActivity(refresh);
+            finish();
+            //add to backStack?
+        }
+        if (id == R.id.action_tamil) {
+            locale = new Locale("ta");
+            Resources res = getResources();
+            DisplayMetrics dm = res.getDisplayMetrics();
+            Configuration conf = res.getConfiguration();
+            conf.locale = locale;
+            res.updateConfiguration(conf, dm);
+            Intent refresh = new Intent(this, MainActivity.class);
+            startActivity(refresh);
+            finish();
+        }
+        if (id == R.id.action_german) {
+            //return true
+            locale = new Locale("de");
+            Resources res = getResources();
+            DisplayMetrics dm = res.getDisplayMetrics();
+            Configuration conf = res.getConfiguration();
+            conf.locale = locale;
+            res.updateConfiguration(conf, dm);
+            Intent refresh = new Intent(this, MainActivity.class);
+            startActivity(refresh);
+            finish();
+        }
+        if (id == R.id.action_contacs) {
+            return true;
+//            Intent helloIntent = new Intent(LinuxEthereumTabbed.this, HelloAndroid.class);
+//            //start Activity by using Intent
+//            startActivity(helloIntent);
+        }
+        if (id == R.id.action_about) {
+            return true;
+
+        }
+
 
         return super.onOptionsItemSelected(item);
     }

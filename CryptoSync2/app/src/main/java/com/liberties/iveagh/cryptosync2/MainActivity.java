@@ -48,11 +48,11 @@ public class MainActivity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
-        final Button loginButton = (Button) findViewById(R.id.log_reg_btn);
+        final Button loginButton = (Button) findViewById(R.id.firebase_log_reg_btn);
         loginButton.setOnClickListener(new View.OnClickListener() {
 
         public void onClick(View v) {
-            Intent loginScreenIntent = new Intent(MainActivity.this, LoginScreen.class);
+            Intent loginScreenIntent = new Intent(MainActivity.this, FirebaseLogin.class);
             startActivity(loginScreenIntent);
             }
         });
@@ -83,18 +83,16 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
         Locale locale = null;
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            locale = new Locale("ga");
-//            Toast.makeText(this, "Íslanska", Toast.LENGTH_SHORT).show();
+        if (id == R.id.action_main) {
+            //use backStack?
+            Intent mainActivityIntent = new Intent(MainActivity.this, MainActivity.class);
+            startActivity(mainActivityIntent);
             //return true;
-            Resources res = getResources();
-            DisplayMetrics dm = res.getDisplayMetrics();
-            Configuration conf = res.getConfiguration();
-            conf.locale = locale;
-            res.updateConfiguration(conf, dm);
-            Intent refresh = new Intent(this, MainActivity.class);
-            startActivity(refresh);
-            finish();
+        }
+        if (id == R.id.action_settings) {
+            Intent settingsActivityIntent = new Intent(MainActivity.this, SettingsActivity.class);
+            startActivity(settingsActivityIntent);
+            //return true
         }
         if (id == R.id.action_hello) {
             //return true
@@ -104,50 +102,63 @@ public class MainActivity extends AppCompatActivity
         }
         if (id == R.id.action_english) {
             //return true
-            Intent helloIntent = new Intent(MainActivity.this, HelloAndroid.class);
+            //Intent helloIntent = new Intent(MainActivity.this, MainActivity.class);
             //start Activity by using Intent
-            startActivity(helloIntent);
-        }
-        if (id == R.id.action_gaeilge) {
-            locale = new Locale("ga");
-//            Toast.makeText(this, "Íslanska", Toast.LENGTH_SHORT).show();
-            //return true;
+            //startActivity(helloIntent);
+            locale = new Locale("en");
             Resources res = getResources();
             DisplayMetrics dm = res.getDisplayMetrics();
             Configuration conf = res.getConfiguration();
             conf.locale = locale;
             res.updateConfiguration(conf, dm);
-            Intent refresh = new Intent(this, MainActivity.class);
+            Intent refresh = new Intent(MainActivity.this, MainActivity.class);
             startActivity(refresh);
             finish();
-//            //return true
+        }
+        if (id == R.id.action_gaeilge) {
+            locale = new Locale("ga");
+            Resources res = getResources();
+            DisplayMetrics dm = res.getDisplayMetrics();
+            Configuration conf = res.getConfiguration();
+            conf.locale = locale;
+            res.updateConfiguration(conf, dm);
+            Intent refresh = new Intent(MainActivity.this, MainActivity.class);
+            startActivity(refresh);
+            finish();
+            //add to backStack?
+        }
+        if (id == R.id.action_tamil) {
+            locale = new Locale("ta");
+            Resources res = getResources();
+            DisplayMetrics dm = res.getDisplayMetrics();
+            Configuration conf = res.getConfiguration();
+            conf.locale = locale;
+            res.updateConfiguration(conf, dm);
+            Intent refresh = new Intent(MainActivity.this, MainActivity.class);
+            startActivity(refresh);
+            finish();
+        }
+        if (id == R.id.action_german) {
+            //return true
+            locale = new Locale("de");
+            Resources res = getResources();
+            DisplayMetrics dm = res.getDisplayMetrics();
+            Configuration conf = res.getConfiguration();
+            conf.locale = locale;
+            res.updateConfiguration(conf, dm);
+            Intent refresh = new Intent(MainActivity.this, MainActivity.class);
+            startActivity(refresh);
+            finish();
+        }
+        if (id == R.id.action_contacs) {
+            return true;
 //            Intent helloIntent = new Intent(MainActivity.this, HelloAndroid.class);
 //            //start Activity by using Intent
 //            startActivity(helloIntent);
         }
-        if (id == R.id.action_tamil) {
-            //return true
-            Intent helloIntent = new Intent(MainActivity.this, HelloAndroid.class);
-            //start Activity by using Intent
-            startActivity(helloIntent);
-        }
-        if (id == R.id.action_german) {
-            //return true
-            Intent helloIntent = new Intent(MainActivity.this, HelloAndroid.class);
-            //start Activity by using Intent
-            startActivity(helloIntent);
-        }
-        if (id == R.id.action_contacs) {
-            //return true
-            Intent helloIntent = new Intent(MainActivity.this, HelloAndroid.class);
-            //start Activity by using Intent
-            startActivity(helloIntent);
-        }
         if (id == R.id.action_about) {
-            //return true
-            Intent helloIntent = new Intent(MainActivity.this, HelloAndroid.class);
-            //start Activity by using Intent
-            startActivity(helloIntent);
+            return true;
+
         }
 //        return true;
         return super.onOptionsItemSelected(item);
@@ -214,7 +225,9 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.osWin) {
 
         } else if (id == R.id.theme_light) {
-
+            // switch here between light and dart themes.
+            // <item name="android:colorBackground">@color/black</item>
+            // or @color/white
         } else if (id == R.id.theme_dark) {
 
         } else if (id == R.id.nav_share) {
