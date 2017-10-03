@@ -231,7 +231,10 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.theme_dark) {
 
         } else if (id == R.id.nav_share) {
-
+            Intent shareIntent = new Intent(Intent.ACTION_SEND);
+            shareIntent.setType("text/plain");
+            shareIntent.putExtra(Intent.EXTRA_TEXT, "http://www.linuxubiquitous.com");  //share this link
+            startActivity(Intent.createChooser(shareIntent, "Share link using"));
         } else if (id == R.id.nav_send) {
 
         }
