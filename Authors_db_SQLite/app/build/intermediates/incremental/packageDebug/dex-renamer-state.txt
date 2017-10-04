@@ -1,7 +1,0 @@
-#Tue Sep 12 20:15:46 IST 2017
-base.0=/home/iveagh/AndroidStudioProjects/Authors_db_SQLite/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_beaab477ff55eb2f51026e658b7ae6cfa9963df8
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=/home/iveagh/AndroidStudioProjects/Authors_db_SQLite/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_1e39702ccad13985f1a3f7ea0b7d40783e7c71d2/classes.dex
-base.1=/home/iveagh/AndroidStudioProjects/Authors_db_SQLite/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_1e39702ccad13985f1a3f7ea0b7d40783e7c71d2
-file.0=/home/iveagh/AndroidStudioProjects/Authors_db_SQLite/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_beaab477ff55eb2f51026e658b7ae6cfa9963df8/classes.dex

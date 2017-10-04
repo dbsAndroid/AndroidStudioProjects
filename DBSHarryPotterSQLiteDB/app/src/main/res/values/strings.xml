@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DBSHarryPotterSQLiteDB</string>
+    <string name="fix_string">Fix these Harry Potter characters</string>
+</resources>

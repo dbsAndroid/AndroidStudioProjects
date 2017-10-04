@@ -6,26 +6,23 @@
     density="xxhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1505216344694"
+    timestamp="1507128572640"
     token="5233619232985610334"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="688" />
+        duration="789" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="96" />
+        duration="46" />
     <task
         name="verifier"
-        duration="4" />
+        duration="0" />
 
-    <artifact
-        location="/home/iveagh/AndroidStudioProjects/DataManagementSQL/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
-        type="SPLIT" />
     <artifact
         location="/home/iveagh/AndroidStudioProjects/DataManagementSQL/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
         type="SPLIT" />
@@ -36,6 +33,12 @@
         location="/home/iveagh/AndroidStudioProjects/DataManagementSQL/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
         type="SPLIT" />
     <artifact
+        location="/home/iveagh/AndroidStudioProjects/DataManagementSQL/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/iveagh/AndroidStudioProjects/DataManagementSQL/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+        type="SPLIT" />
+    <artifact
         location="/home/iveagh/AndroidStudioProjects/DataManagementSQL/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
         type="SPLIT" />
     <artifact
@@ -43,9 +46,6 @@
         type="SPLIT" />
     <artifact
         location="/home/iveagh/AndroidStudioProjects/DataManagementSQL/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/iveagh/AndroidStudioProjects/DataManagementSQL/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
         type="SPLIT" />
     <artifact
         location="/home/iveagh/AndroidStudioProjects/DataManagementSQL/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
@@ -59,11 +59,8 @@
 
     <build
         build-mode="FULL"
-        timestamp="1505216344694"
+        timestamp="1507128572640"
         verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="/home/iveagh/AndroidStudioProjects/DataManagementSQL/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
-            type="SPLIT" />
         <artifact
             location="/home/iveagh/AndroidStudioProjects/DataManagementSQL/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
@@ -74,6 +71,12 @@
             location="/home/iveagh/AndroidStudioProjects/DataManagementSQL/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
+            location="/home/iveagh/AndroidStudioProjects/DataManagementSQL/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/iveagh/AndroidStudioProjects/DataManagementSQL/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            type="SPLIT" />
+        <artifact
             location="/home/iveagh/AndroidStudioProjects/DataManagementSQL/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
         <artifact
@@ -81,9 +84,6 @@
             type="SPLIT" />
         <artifact
             location="/home/iveagh/AndroidStudioProjects/DataManagementSQL/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/iveagh/AndroidStudioProjects/DataManagementSQL/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
             location="/home/iveagh/AndroidStudioProjects/DataManagementSQL/app/build/intermediates/split-apk/debug/slices/slice_4.apk"

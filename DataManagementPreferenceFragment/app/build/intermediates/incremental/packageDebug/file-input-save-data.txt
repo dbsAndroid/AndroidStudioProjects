@@ -1,24 +1,27 @@
 #Internal package file, do not edit.
-#Fri Sep 08 13:40:09 IST 2017
-2.base=/home/iveagh/AndroidStudioProjects/DataManagementPreferenceFragment/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
-5.file=/home/iveagh/AndroidStudioProjects/DataManagementPreferenceFragment/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/ic_launcher.png
+#Wed Oct 04 15:55:14 IST 2017
+2.base=/home/iveagh/AndroidStudioProjects/DataManagementPreferenceFragment/app/build/intermediates/res/resources-debug.ap_
+5.file=/home/iveagh/AndroidStudioProjects/DataManagementPreferenceFragment/app/build/intermediates/res/resources-debug.ap_/res/layout/main.xml
 5.set=ANDROID_RESOURCE
-3.base=/home/iveagh/AndroidStudioProjects/DataManagementPreferenceFragment/app/build/intermediates/res/resources-debug.ap_
-6.file=/home/iveagh/AndroidStudioProjects/DataManagementPreferenceFragment/app/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
-2.set=DEX
-4.base=/home/iveagh/AndroidStudioProjects/DataManagementPreferenceFragment/app/build/intermediates/res/resources-debug.ap_
-count=7
+3.base=/home/iveagh/AndroidStudioProjects/DataManagementPreferenceFragment/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_9e912e695e761154f267158a44ee7429ca2dc56a
+6.file=/home/iveagh/AndroidStudioProjects/DataManagementPreferenceFragment/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/ic_launcher.png
+2.set=ANDROID_RESOURCE
+4.base=/home/iveagh/AndroidStudioProjects/DataManagementPreferenceFragment/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_9950073d5b2adda76e2f38aeb105dca6ee17b61a
+7.file=/home/iveagh/AndroidStudioProjects/DataManagementPreferenceFragment/app/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
+7.set=ANDROID_RESOURCE
+count=8
 0.file=/home/iveagh/AndroidStudioProjects/DataManagementPreferenceFragment/app/build/intermediates/res/resources-debug.ap_/resources.arsc
 5.base=/home/iveagh/AndroidStudioProjects/DataManagementPreferenceFragment/app/build/intermediates/res/resources-debug.ap_
-4.set=ANDROID_RESOURCE
+4.set=DEX
 6.base=/home/iveagh/AndroidStudioProjects/DataManagementPreferenceFragment/app/build/intermediates/res/resources-debug.ap_
 1.file=/home/iveagh/AndroidStudioProjects/DataManagementPreferenceFragment/app/build/intermediates/res/resources-debug.ap_/res/layout/user_prefs_fragment.xml
 1.set=ANDROID_RESOURCE
-2.file=/home/iveagh/AndroidStudioProjects/DataManagementPreferenceFragment/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
+7.base=/home/iveagh/AndroidStudioProjects/DataManagementPreferenceFragment/app/build/intermediates/res/resources-debug.ap_
+2.file=/home/iveagh/AndroidStudioProjects/DataManagementPreferenceFragment/app/build/intermediates/res/resources-debug.ap_/res/xml/user_prefs.xml
 6.set=ANDROID_RESOURCE
 0.base=/home/iveagh/AndroidStudioProjects/DataManagementPreferenceFragment/app/build/intermediates/res/resources-debug.ap_
-3.file=/home/iveagh/AndroidStudioProjects/DataManagementPreferenceFragment/app/build/intermediates/res/resources-debug.ap_/res/xml/user_prefs.xml
-3.set=ANDROID_RESOURCE
+3.file=/home/iveagh/AndroidStudioProjects/DataManagementPreferenceFragment/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_9e912e695e761154f267158a44ee7429ca2dc56a/classes.dex
+3.set=DEX
 1.base=/home/iveagh/AndroidStudioProjects/DataManagementPreferenceFragment/app/build/intermediates/res/resources-debug.ap_
-4.file=/home/iveagh/AndroidStudioProjects/DataManagementPreferenceFragment/app/build/intermediates/res/resources-debug.ap_/res/layout/main.xml
+4.file=/home/iveagh/AndroidStudioProjects/DataManagementPreferenceFragment/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_9950073d5b2adda76e2f38aeb105dca6ee17b61a/classes.dex
 0.set=ANDROID_RESOURCE

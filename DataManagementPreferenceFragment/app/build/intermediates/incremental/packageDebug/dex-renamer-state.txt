@@ -1,4 +1,7 @@
-#Fri Sep 08 13:40:09 IST 2017
-base.0=/home/iveagh/AndroidStudioProjects/DataManagementPreferenceFragment/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
-renamed.0=classes.dex
-file.0=/home/iveagh/AndroidStudioProjects/DataManagementPreferenceFragment/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
+#Wed Oct 04 15:55:14 IST 2017
+base.0=/home/iveagh/AndroidStudioProjects/DataManagementPreferenceFragment/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_9e912e695e761154f267158a44ee7429ca2dc56a
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/home/iveagh/AndroidStudioProjects/DataManagementPreferenceFragment/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_9950073d5b2adda76e2f38aeb105dca6ee17b61a/classes.dex
+base.1=/home/iveagh/AndroidStudioProjects/DataManagementPreferenceFragment/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_9950073d5b2adda76e2f38aeb105dca6ee17b61a
+file.0=/home/iveagh/AndroidStudioProjects/DataManagementPreferenceFragment/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_9e912e695e761154f267158a44ee7429ca2dc56a/classes.dex

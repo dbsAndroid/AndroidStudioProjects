@@ -104,11 +104,11 @@ public class DatabaseExampleActivity extends ListActivity {
 
 		// fix the Man in Black
 		ContentValues values = new ContentValues();
-		values.put(DatabaseOpenHelper.AUTHOR_NAME, "William Shakespears");
+		values.put(DatabaseOpenHelper.AUTHOR_NAME, "William Shakespear");
 
 		mDbHelper.getWritableDatabase().update(DatabaseOpenHelper.TABLE_NAME, values,
 				DatabaseOpenHelper.AUTHOR_NAME + "=?",
-				new String[] { "William Shakespear" });
+				new String[] { "William Shakespears" });
 
 	}
 
