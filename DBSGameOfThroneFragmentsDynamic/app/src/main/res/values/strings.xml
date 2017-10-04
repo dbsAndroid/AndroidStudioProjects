@@ -14,7 +14,13 @@
     </string-array>
     <string-array name="Quotes">
         <item>Rulers of the Vale of Arryn from the castle of the Eyrie.</item>
-        <item>Former vassals to House Tully, rulers of the Riverlands from the castle of Riverrun after ususrping their positions after the Red Wedding.</item>
-        <item>There is a tide in the affairs of men, which taken at the flood, leads on to fortune. Omitted, all the voyage of their life is bound in shallows and in miseries.</item>
+        <item>Former vassals to House Tully, rulers of the Riverlands from the castle of Riverrun
+            after ususrping their positions after the Red Wedding.</item>
+        <item>Rulers of the Iron Islands from the castle of Pyke. Divided, with memebers supporting either
+            the Lannister or Stark/Targaryen cause</item>
+        <item>The current royal house of the 7 Kingdoms from the Red Keep of King\'s Landing......</item>
+        <item>Rulers of the North from the castle of Winterfell. Recently retook their lands from House Bolton....</item>
+        <item>Claimant royal house of the 7 Kingdoms, forver royal house and rulers of the Crownlands from the castle
+            of the Red Keep. Currently based at ....</item>
     </string-array>
 </resources>

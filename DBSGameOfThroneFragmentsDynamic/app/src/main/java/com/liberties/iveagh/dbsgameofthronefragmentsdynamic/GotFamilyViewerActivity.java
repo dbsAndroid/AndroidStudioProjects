@@ -20,13 +20,13 @@ import android.widget.LinearLayout;
 //Several Activity lifecycle methods are instrumented to emit LogCat output
 //so you can follow this class' lifecycle
 public class GotFamilyViewerActivity extends Activity implements
-        ListSelectionListener {
+        HouseTitlesFragment.ListSelectionListener {
 
     public static String[] mTitleArray;
     public static String[] mQuoteArray;
 
 
-    private final QuotesFragment mQuoteFragment = new QuotesFragment();
+    private final HouseDescriptionsFragment mQuoteFragment = new HouseDescriptionsFragment();
     private FragmentManager mFragmentManager;
     private FrameLayout mTitleFrameLayout, mQuotesFrameLayout;
 
@@ -97,7 +97,7 @@ public class GotFamilyViewerActivity extends Activity implements
     }
 
     // Called when the user selects an item in the TitlesFragment
-    @Override
+    //@Override   //not sure why this acting up 'override' public||private issue?
     public void onListSelection(int index) {
 
         // If the QuoteFragment has not been added, add it now
