@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "179513021753",
+    "firebase_url": "https://dbsstarwarsfanclub.firebaseio.com",
+    "project_id": "dbsstarwarsfanclub",
+    "storage_bucket": "dbsstarwarsfanclub.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:179513021753:android:f39cf29120ef16ed",
+        "android_client_info": {
+          "package_name": "com.liberties.iveagh.dbsstarwarsfanclub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "179513021753-1p0nl8ivrhp3po0bg1tcctnjhddlncsg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIDvu_VIZnBKFhC7ZIiMyxd53FRmYmoCw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
