@@ -234,7 +234,7 @@ public class MainActivity extends AppCompatActivity
             Intent shareIntent = new Intent(Intent.ACTION_SEND);
             shareIntent.setType("text/plain");
             shareIntent.putExtra(Intent.EXTRA_TEXT, "http://www.linuxubiquitous.com");  //share this link
-            startActivity(Intent.createChooser(shareIntent, "Share link using"));
+            startActivity(Intent.createChooser(shareIntent, "Share website link using"));
         } else if (id == R.id.nav_send) {
 
         }
