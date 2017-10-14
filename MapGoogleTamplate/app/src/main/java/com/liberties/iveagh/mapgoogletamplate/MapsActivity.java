@@ -8,6 +8,7 @@ import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.LatLngBounds;
 import com.google.android.gms.maps.model.MarkerOptions;
 
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
@@ -39,8 +40,17 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap = googleMap;
 
         LatLng dublin = new LatLng(53.34, -6.26);
+        LatLng london = new LatLng(51.52, -0.38);
+        LatLng manchester = new LatLng(53.47, -2.36);
+        LatLng manhattan = new LatLng(40.69, -74.29);
+        LatLng atlantis = new LatLng(45.00, -35.00);
+
         mMap.addMarker(new MarkerOptions().position(dublin).title("Marker in Dubh Lin"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(dublin));
+        mMap.addMarker(new MarkerOptions().position(london).title("London Loonies"));
+        mMap.addMarker(new MarkerOptions().position(manchester).title("Manchester Mummies"));
+        mMap.addMarker(new MarkerOptions().position(manhattan).title("Manhattan Mops"));
+
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(atlantis));
         // Add a marker in Sydney and move the camera
 //        LatLng sydney = new LatLng(-34, 151);
 //        mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));

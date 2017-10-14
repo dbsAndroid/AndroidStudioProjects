@@ -77,6 +77,7 @@ class XMLResponseHandler implements ResponseHandler<List<String>> {
 	public void endTag(String localName) {
 		if (localName.equals(LATITUDE_TAG)) {
 			mIsParsingLat = false;
+
 		} else if (localName.equals(LONGITUDE_TAG)) {
 			mIsParsingLng = false;
 		} else if (localName.equals(MAGNITUDE_TAG)) {
