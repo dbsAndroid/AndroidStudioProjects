@@ -43,7 +43,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         LatLng london = new LatLng(51.52, -0.38);
         LatLng manchester = new LatLng(53.47, -2.36);
         LatLng manhattan = new LatLng(40.69, -74.29);
-        LatLng atlantis = new LatLng(45.00, -35.00);
+        LatLng atlantis = new LatLng(35.00, -35.00);
 
         mMap.addMarker(new MarkerOptions().position(dublin).title("Marker in Dubh Lin"));
         mMap.addMarker(new MarkerOptions().position(london).title("London Loonies"));
